@@ -1,0 +1,8 @@
+{
+  "open_circulars": 3,
+  "in_review": 1,
+  "awaiting_signoff": 1,
+  "adopted_this_quarter": 4,
+  "states_pending": ["FL", "TX"],
+  "stale_links": 0
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "carrier_id": "ACME",
+    "carrier_name": "ACME Specialty Insurance",
+    "naic_code": "12345",
+    "lobs": ["GL"],
+    "cw_project_reference": "GL-2024-CW",
+    "states": ["FL", "TX", "CA", "NY"],
+    "status": "active",
+    "effective_date": "2026-01-01"
+  },
+  {
+    "carrier_id": "DEMO_CARRIER",
+    "carrier_name": "Demo Mutual",
+    "naic_code": "99999",
+    "lobs": ["GL"],
+    "cw_project_reference": "GL-2024-CW",
+    "states": ["FL", "TX"],
+    "status": "active",
+    "effective_date": "2026-03-01"
+  }
+]

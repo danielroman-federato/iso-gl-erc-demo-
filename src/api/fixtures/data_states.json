@@ -1,0 +1,7 @@
+[
+  { "state_code": "FL", "state_name": "Florida" },
+  { "state_code": "TX", "state_name": "Texas" },
+  { "state_code": "CA", "state_name": "California" },
+  { "state_code": "NY", "state_name": "New York" },
+  { "state_code": "GA", "state_name": "Georgia" }
+]
