@@ -1,1 +1,8 @@
-{ "rows": [], "states": [], "deviation_types": [] }
+{
+  "ui_coverage_matrix": {
+    "carriers": [],
+    "states": [],
+    "deviation_types": [],
+    "rows": []
+  }
+}
