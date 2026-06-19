@@ -1,1 +1,4538 @@
-{ "stale_editions": [], "active_editions": [] }
+{
+  "active_editions": [
+    {
+      "edition_id": "GL-AL-20270401-V01",
+      "lob": "GL",
+      "state_code": "AL",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:08:45.260955Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AL-20270401-V02",
+      "lob": "GL",
+      "state_code": "AL",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:08:50.510457Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AL-20270401-V03",
+      "lob": "GL",
+      "state_code": "AL",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:08:56.969643Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AL-20270401-V04",
+      "lob": "GL",
+      "state_code": "AL",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:09:02.301912Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AK-20270401-V01",
+      "lob": "GL",
+      "state_code": "AK",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:09:29.447812Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AZ-20270401-V01",
+      "lob": "GL",
+      "state_code": "AZ",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:10:29.076077Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AR-20270401-V01",
+      "lob": "GL",
+      "state_code": "AR",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:10:58.809385Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CO-20270401-V01",
+      "lob": "GL",
+      "state_code": "CO",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:12:19.923439Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CO-20270401-V02",
+      "lob": "GL",
+      "state_code": "CO",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:12:25.126231Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CO-20270401-V03",
+      "lob": "GL",
+      "state_code": "CO",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:12:30.363852Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CT-20270401-V01",
+      "lob": "GL",
+      "state_code": "CT",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:13:09.851429Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CW-20270401-V01",
+      "lob": "GL",
+      "state_code": "CW",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:13:39.911210Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-DE-20270401-V01",
+      "lob": "GL",
+      "state_code": "DE",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:14:40.788562Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-DC-20270401-V01",
+      "lob": "GL",
+      "state_code": "DC",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:15:39.686897Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-ID-20270401-V01",
+      "lob": "GL",
+      "state_code": "ID",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:18:23.100658Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IL-20270401-V01",
+      "lob": "GL",
+      "state_code": "IL",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:19:31.426891Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IL-20270401-V02",
+      "lob": "GL",
+      "state_code": "IL",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:19:36.871066Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IL-20270401-V03",
+      "lob": "GL",
+      "state_code": "IL",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:19:42.540198Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IL-20270401-V04",
+      "lob": "GL",
+      "state_code": "IL",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:19:48.589685Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IN-20270401-V01",
+      "lob": "GL",
+      "state_code": "IN",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:20:51.060076Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IN-20270401-V02",
+      "lob": "GL",
+      "state_code": "IN",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:20:55.870419Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IN-20270401-V03",
+      "lob": "GL",
+      "state_code": "IN",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:21:01.938603Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IA-20270401-V01",
+      "lob": "GL",
+      "state_code": "IA",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:21:41.764888Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IA-20270401-V02",
+      "lob": "GL",
+      "state_code": "IA",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:21:48.154041Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IA-20270401-V03",
+      "lob": "GL",
+      "state_code": "IA",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:21:54.856286Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-KS-20270401-V01",
+      "lob": "GL",
+      "state_code": "KS",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:22:30.325192Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-KS-20270401-V02",
+      "lob": "GL",
+      "state_code": "KS",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:22:33.872428Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-KY-20270401-V01",
+      "lob": "GL",
+      "state_code": "KY",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:23:05.085426Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-KY-20270401-V02",
+      "lob": "GL",
+      "state_code": "KY",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:23:08.195937Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-LA-20270401-V01",
+      "lob": "GL",
+      "state_code": "LA",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:24:20.430691Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-LA-20270401-V02",
+      "lob": "GL",
+      "state_code": "LA",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:24:26.058517Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-LA-20270401-V03",
+      "lob": "GL",
+      "state_code": "LA",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:24:36.435437Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-ME-20270401-V01",
+      "lob": "GL",
+      "state_code": "ME",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:25:38.860163Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MD-20270401-V01",
+      "lob": "GL",
+      "state_code": "MD",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:26:41.581557Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MD-20270401-V02",
+      "lob": "GL",
+      "state_code": "MD",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:26:45.584516Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MI-20270401-V02",
+      "lob": "GL",
+      "state_code": "MI",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:28:12.921486Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MN-20270401-V03",
+      "lob": "GL",
+      "state_code": "MN",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:28:56.668855Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MS-20270401-V04",
+      "lob": "GL",
+      "state_code": "MS",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:29:48.481445Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MO-20270401-V02",
+      "lob": "GL",
+      "state_code": "MO",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:30:47.409064Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MT-20270401-V03",
+      "lob": "GL",
+      "state_code": "MT",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:31:53.714930Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NE-20270401-V03",
+      "lob": "GL",
+      "state_code": "NE",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:32:41.916767Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NH-20270401-V02",
+      "lob": "GL",
+      "state_code": "NH",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:33:53.093390Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NM-20270401-V03",
+      "lob": "GL",
+      "state_code": "NM",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:36:44.936141Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NC-20270401-V01",
+      "lob": "GL",
+      "state_code": "NC",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:38:23.483778Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-ND-20270401-V01",
+      "lob": "GL",
+      "state_code": "ND",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:39:03.754388Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-OK-20270401-V02",
+      "lob": "GL",
+      "state_code": "OK",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:40:29.453036Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-OR-20270401-V03",
+      "lob": "GL",
+      "state_code": "OR",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:41:11.767446Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-PA-20270401-V02",
+      "lob": "GL",
+      "state_code": "PA",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:42:07.071851Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-PR-20270401-V02",
+      "lob": "GL",
+      "state_code": "PR",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:42:43.751359Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-RI-20270401-V01",
+      "lob": "GL",
+      "state_code": "RI",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:43:22.760572Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-SC-20270401-V01",
+      "lob": "GL",
+      "state_code": "SC",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:43:50.266055Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-SD-20270401-V03",
+      "lob": "GL",
+      "state_code": "SD",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:44:46.287800Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-TN-20270401-V02",
+      "lob": "GL",
+      "state_code": "TN",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:45:41.017538Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-TX-20270401-V01",
+      "lob": "GL",
+      "state_code": "TX",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:46:21.468340Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-UT-20270401-V03",
+      "lob": "GL",
+      "state_code": "UT",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:47:17.388273Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-VT-20270401-V01",
+      "lob": "GL",
+      "state_code": "VT",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:47:57.856469Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-VA-20270401-V01",
+      "lob": "GL",
+      "state_code": "VA",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:48:31.371410Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WV-20270401-V03",
+      "lob": "GL",
+      "state_code": "WV",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:50:08.940221Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WI-20270401-V03",
+      "lob": "GL",
+      "state_code": "WI",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:50:58.860694Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WY-20270401-V02",
+      "lob": "GL",
+      "state_code": "WY",
+      "effective_date": "2027-04-01",
+      "load_timestamp": "2026-06-18T12:51:40.455244Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AL-20270101-V01",
+      "lob": "GL",
+      "state_code": "AL",
+      "effective_date": "2027-01-01",
+      "load_timestamp": "2026-06-18T12:08:40.259437Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AZ-20270101-V01",
+      "lob": "GL",
+      "state_code": "AZ",
+      "effective_date": "2027-01-01",
+      "load_timestamp": "2026-06-18T12:10:25.520911Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-ME-20270101-V01",
+      "lob": "GL",
+      "state_code": "ME",
+      "effective_date": "2027-01-01",
+      "load_timestamp": "2026-06-18T12:25:35.244353Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NJ-20270101-V01",
+      "lob": "GL",
+      "state_code": "NJ",
+      "effective_date": "2027-01-01",
+      "load_timestamp": "2026-06-18T12:34:54.795830Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-SC-20270101-V01",
+      "lob": "GL",
+      "state_code": "SC",
+      "effective_date": "2027-01-01",
+      "load_timestamp": "2026-06-18T12:43:46.539407Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AR-20261201-V01",
+      "lob": "GL",
+      "state_code": "AR",
+      "effective_date": "2026-12-01",
+      "load_timestamp": "2026-06-18T12:10:55.264933Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-ID-20261201-V01",
+      "lob": "GL",
+      "state_code": "ID",
+      "effective_date": "2026-12-01",
+      "load_timestamp": "2026-06-18T12:18:19.919106Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NV-20261201-V01",
+      "lob": "GL",
+      "state_code": "NV",
+      "effective_date": "2026-12-01",
+      "load_timestamp": "2026-06-18T12:33:10.655459Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NH-20261201-V01",
+      "lob": "GL",
+      "state_code": "NH",
+      "effective_date": "2026-12-01",
+      "load_timestamp": "2026-06-18T12:33:46.915400Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-VT-20261201-V01",
+      "lob": "GL",
+      "state_code": "VT",
+      "effective_date": "2026-12-01",
+      "load_timestamp": "2026-06-18T12:47:53.330433Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-DE-20261101-V01",
+      "lob": "GL",
+      "state_code": "DE",
+      "effective_date": "2026-11-01",
+      "load_timestamp": "2026-06-18T12:14:30.500561Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MD-20261101-V01",
+      "lob": "GL",
+      "state_code": "MD",
+      "effective_date": "2026-11-01",
+      "load_timestamp": "2026-06-18T12:26:32.196556Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MD-20261101-V02",
+      "lob": "GL",
+      "state_code": "MD",
+      "effective_date": "2026-11-01",
+      "load_timestamp": "2026-06-18T12:26:37.015826Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MO-20261101-V01",
+      "lob": "GL",
+      "state_code": "MO",
+      "effective_date": "2026-11-01",
+      "load_timestamp": "2026-06-18T12:30:43.813795Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MT-20261101-V02",
+      "lob": "GL",
+      "state_code": "MT",
+      "effective_date": "2026-11-01",
+      "load_timestamp": "2026-06-18T12:31:47.529607Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-PR-20261101-V01",
+      "lob": "GL",
+      "state_code": "PR",
+      "effective_date": "2026-11-01",
+      "load_timestamp": "2026-06-18T12:42:38.781390Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CO-20261001-V01",
+      "lob": "GL",
+      "state_code": "CO",
+      "effective_date": "2026-10-01",
+      "load_timestamp": "2026-06-18T12:12:10.617890Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CO-20261001-V02",
+      "lob": "GL",
+      "state_code": "CO",
+      "effective_date": "2026-10-01",
+      "load_timestamp": "2026-06-18T12:12:15.009320Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NM-20261001-V02",
+      "lob": "GL",
+      "state_code": "NM",
+      "effective_date": "2026-10-01",
+      "load_timestamp": "2026-06-18T12:36:41.136315Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-ND-20261001-V01",
+      "lob": "GL",
+      "state_code": "ND",
+      "effective_date": "2026-10-01",
+      "load_timestamp": "2026-06-18T12:38:59.620148Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-SD-20261001-V02",
+      "lob": "GL",
+      "state_code": "SD",
+      "effective_date": "2026-10-01",
+      "load_timestamp": "2026-06-18T12:44:41.295842Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IL-20260901-V01",
+      "lob": "GL",
+      "state_code": "IL",
+      "effective_date": "2026-09-01",
+      "load_timestamp": "2026-06-18T12:19:26.160605Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AK-20260801-V02",
+      "lob": "GL",
+      "state_code": "AK",
+      "effective_date": "2026-08-01",
+      "load_timestamp": "2026-06-18T12:09:26.931123Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-KY-20260801-V01",
+      "lob": "GL",
+      "state_code": "KY",
+      "effective_date": "2026-08-01",
+      "load_timestamp": "2026-06-18T12:23:01.760977Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NY-20260801-V01",
+      "lob": "GL",
+      "state_code": "NY",
+      "effective_date": "2026-08-01",
+      "load_timestamp": "2026-06-18T12:37:36.729948Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AL-20260701-V01",
+      "lob": "GL",
+      "state_code": "AL",
+      "effective_date": "2026-07-01",
+      "load_timestamp": "2026-06-18T12:08:36.328475Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-FL-20260701-V01",
+      "lob": "GL",
+      "state_code": "FL",
+      "effective_date": "2026-07-01",
+      "load_timestamp": "2026-06-18T12:16:46.674083Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IL-20260701-V01",
+      "lob": "GL",
+      "state_code": "IL",
+      "effective_date": "2026-07-01",
+      "load_timestamp": "2026-06-18T12:19:21.825190Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-LA-20260701-V01",
+      "lob": "GL",
+      "state_code": "LA",
+      "effective_date": "2026-07-01",
+      "load_timestamp": "2026-06-18T12:24:06.346380Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-LA-20260701-V02",
+      "lob": "GL",
+      "state_code": "LA",
+      "effective_date": "2026-07-01",
+      "load_timestamp": "2026-06-18T12:24:12.481991Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MN-20260701-V01",
+      "lob": "GL",
+      "state_code": "MN",
+      "effective_date": "2026-07-01",
+      "load_timestamp": "2026-06-18T12:28:52.954769Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MS-20260701-V02",
+      "lob": "GL",
+      "state_code": "MS",
+      "effective_date": "2026-07-01",
+      "load_timestamp": "2026-06-18T12:29:44.634534Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-PA-20260701-V01",
+      "lob": "GL",
+      "state_code": "PA",
+      "effective_date": "2026-07-01",
+      "load_timestamp": "2026-06-18T12:42:01.844468Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WI-20260701-V01",
+      "lob": "GL",
+      "state_code": "WI",
+      "effective_date": "2026-07-01",
+      "load_timestamp": "2026-06-18T12:50:53.747233Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-DC-20260601-V01",
+      "lob": "GL",
+      "state_code": "DC",
+      "effective_date": "2026-06-01",
+      "load_timestamp": "2026-06-18T12:15:28.281079Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-DC-20260601-V02",
+      "lob": "GL",
+      "state_code": "DC",
+      "effective_date": "2026-06-01",
+      "load_timestamp": "2026-06-18T12:15:34.671898Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-GA-20260601-V01",
+      "lob": "GL",
+      "state_code": "GA",
+      "effective_date": "2026-06-01",
+      "load_timestamp": "2026-06-18T12:17:46.985511Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IL-20260601-V01",
+      "lob": "GL",
+      "state_code": "IL",
+      "effective_date": "2026-06-01",
+      "load_timestamp": "2026-06-18T12:19:16.842780Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IN-20260601-V01",
+      "lob": "GL",
+      "state_code": "IN",
+      "effective_date": "2026-06-01",
+      "load_timestamp": "2026-06-18T12:20:39.789339Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IN-20260601-V02",
+      "lob": "GL",
+      "state_code": "IN",
+      "effective_date": "2026-06-01",
+      "load_timestamp": "2026-06-18T12:20:45.661654Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IA-20260601-V01",
+      "lob": "GL",
+      "state_code": "IA",
+      "effective_date": "2026-06-01",
+      "load_timestamp": "2026-06-18T12:21:36.225990Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-LA-20260601-V01",
+      "lob": "GL",
+      "state_code": "LA",
+      "effective_date": "2026-06-01",
+      "load_timestamp": "2026-06-18T12:24:00.454547Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MN-20260601-V01",
+      "lob": "GL",
+      "state_code": "MN",
+      "effective_date": "2026-06-01",
+      "load_timestamp": "2026-06-18T12:28:49.040410Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NH-20260601-V01",
+      "lob": "GL",
+      "state_code": "NH",
+      "effective_date": "2026-06-01",
+      "load_timestamp": "2026-06-18T12:33:40.782095Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-OH-20260601-V02",
+      "lob": "GL",
+      "state_code": "OH",
+      "effective_date": "2026-06-01",
+      "load_timestamp": "2026-06-18T12:39:50.686536Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-PA-20260601-V01",
+      "lob": "GL",
+      "state_code": "PA",
+      "effective_date": "2026-06-01",
+      "load_timestamp": "2026-06-18T12:41:55.881176Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-TN-20260601-V01",
+      "lob": "GL",
+      "state_code": "TN",
+      "effective_date": "2026-06-01",
+      "load_timestamp": "2026-06-18T12:45:36.255110Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-UT-20260601-V02",
+      "lob": "GL",
+      "state_code": "UT",
+      "effective_date": "2026-06-01",
+      "load_timestamp": "2026-06-18T12:47:12.079931Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WI-20260601-V01",
+      "lob": "GL",
+      "state_code": "WI",
+      "effective_date": "2026-06-01",
+      "load_timestamp": "2026-06-18T12:50:48.335495Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-FL-20260501-V01",
+      "lob": "GL",
+      "state_code": "FL",
+      "effective_date": "2026-05-01",
+      "load_timestamp": "2026-06-18T12:16:43.002872Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-LA-20260501-V01",
+      "lob": "GL",
+      "state_code": "LA",
+      "effective_date": "2026-05-01",
+      "load_timestamp": "2026-06-18T12:23:55.366720Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MI-20260501-V01",
+      "lob": "GL",
+      "state_code": "MI",
+      "effective_date": "2026-05-01",
+      "load_timestamp": "2026-06-18T12:28:08.150286Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MS-20260501-V01",
+      "lob": "GL",
+      "state_code": "MS",
+      "effective_date": "2026-05-01",
+      "load_timestamp": "2026-06-18T12:29:40.720186Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NE-20260501-V01",
+      "lob": "GL",
+      "state_code": "NE",
+      "effective_date": "2026-05-01",
+      "load_timestamp": "2026-06-18T12:32:38.719171Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-OR-20260501-V02",
+      "lob": "GL",
+      "state_code": "OR",
+      "effective_date": "2026-05-01",
+      "load_timestamp": "2026-06-18T12:41:08.232553Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WV-20260501-V01",
+      "lob": "GL",
+      "state_code": "WV",
+      "effective_date": "2026-05-01",
+      "load_timestamp": "2026-06-18T12:50:04.062992Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CT-20260401-V03",
+      "lob": "GL",
+      "state_code": "CT",
+      "effective_date": "2026-04-01",
+      "load_timestamp": "2026-06-18T12:13:05.669354Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IA-20260401-V01",
+      "lob": "GL",
+      "state_code": "IA",
+      "effective_date": "2026-04-01",
+      "load_timestamp": "2026-06-18T12:21:30.734998Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-KY-20260401-V01",
+      "lob": "GL",
+      "state_code": "KY",
+      "effective_date": "2026-04-01",
+      "load_timestamp": "2026-06-18T12:22:58.816891Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MI-20260401-V01",
+      "lob": "GL",
+      "state_code": "MI",
+      "effective_date": "2026-04-01",
+      "load_timestamp": "2026-06-18T12:28:03.678902Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CT-20260301-V02",
+      "lob": "GL",
+      "state_code": "CT",
+      "effective_date": "2026-03-01",
+      "load_timestamp": "2026-06-18T12:13:00.464720Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-GA-20260301-V02",
+      "lob": "GL",
+      "state_code": "GA",
+      "effective_date": "2026-03-01",
+      "load_timestamp": "2026-06-18T12:17:42.785953Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-KS-20260301-V01",
+      "lob": "GL",
+      "state_code": "KS",
+      "effective_date": "2026-03-01",
+      "load_timestamp": "2026-06-18T12:22:26.456999Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MS-20260301-V01",
+      "lob": "GL",
+      "state_code": "MS",
+      "effective_date": "2026-03-01",
+      "load_timestamp": "2026-06-18T12:29:36.726112Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NE-20260301-V01",
+      "lob": "GL",
+      "state_code": "NE",
+      "effective_date": "2026-03-01",
+      "load_timestamp": "2026-06-18T12:32:34.884924Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NJ-20260301-V01",
+      "lob": "GL",
+      "state_code": "NJ",
+      "effective_date": "2026-03-01",
+      "load_timestamp": "2026-06-18T12:34:47.502613Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NC-20260301-V02",
+      "lob": "GL",
+      "state_code": "NC",
+      "effective_date": "2026-03-01",
+      "load_timestamp": "2026-06-18T12:38:19.750956Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-OR-20260301-V01",
+      "lob": "GL",
+      "state_code": "OR",
+      "effective_date": "2026-03-01",
+      "load_timestamp": "2026-06-18T12:41:04.106166Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-RI-20260301-V02",
+      "lob": "GL",
+      "state_code": "RI",
+      "effective_date": "2026-03-01",
+      "load_timestamp": "2026-06-18T12:43:18.100472Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WV-20260301-V01",
+      "lob": "GL",
+      "state_code": "WV",
+      "effective_date": "2026-03-01",
+      "load_timestamp": "2026-06-18T12:50:00.511973Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WY-20260301-V01",
+      "lob": "GL",
+      "state_code": "WY",
+      "effective_date": "2026-03-01",
+      "load_timestamp": "2026-06-18T12:51:36.748660Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AK-20260201-V02",
+      "lob": "GL",
+      "state_code": "AK",
+      "effective_date": "2026-02-01",
+      "load_timestamp": "2026-06-18T12:09:24.280979Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-GA-20260201-V01",
+      "lob": "GL",
+      "state_code": "GA",
+      "effective_date": "2026-02-01",
+      "load_timestamp": "2026-06-18T12:17:39.419199Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IL-20260201-V01",
+      "lob": "GL",
+      "state_code": "IL",
+      "effective_date": "2026-02-01",
+      "load_timestamp": "2026-06-18T12:19:12.074108Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MA-20260201-V01",
+      "lob": "GL",
+      "state_code": "MA",
+      "effective_date": "2026-02-01",
+      "load_timestamp": "2026-06-18T12:27:14.885952Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-VA-20260201-V02",
+      "lob": "GL",
+      "state_code": "VA",
+      "effective_date": "2026-02-01",
+      "load_timestamp": "2026-06-18T12:48:27.637343Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AL-20260101-V02",
+      "lob": "GL",
+      "state_code": "AL",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-16T20:13:00.219796Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AL-20260101-V03",
+      "lob": "GL",
+      "state_code": "AL",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-16T20:13:06.693909Z",
+      "load_status": "COEXISTING"
+    },
+    {
+      "edition_id": "GL-AL-20260101-V01",
+      "lob": "GL",
+      "state_code": "AL",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:08:32.355454Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AZ-20260101-V01",
+      "lob": "GL",
+      "state_code": "AZ",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:10:17.734001Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AZ-20260101-V02",
+      "lob": "GL",
+      "state_code": "AZ",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:10:21.942252Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AR-20260101-V01",
+      "lob": "GL",
+      "state_code": "AR",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:10:51.995691Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CO-20260101-V01",
+      "lob": "GL",
+      "state_code": "CO",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:12:05.797599Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CW-20260101-V01",
+      "lob": "GL",
+      "state_code": "CW",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:13:36.381025Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-DC-20260101-V01",
+      "lob": "GL",
+      "state_code": "DC",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:15:23.411568Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-FL-20260101-V01",
+      "lob": "GL",
+      "state_code": "FL",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:16:39.148365Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-DE-20260101-V01",
+      "lob": "GL",
+      "state_code": "DE",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:16:50.588146Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-ID-20260101-V01",
+      "lob": "GL",
+      "state_code": "ID",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:18:16.830078Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IN-20260101-V01",
+      "lob": "GL",
+      "state_code": "IN",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:20:35.090020Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IA-20260101-V01",
+      "lob": "GL",
+      "state_code": "IA",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:21:27.133254Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-KS-20260101-V01",
+      "lob": "GL",
+      "state_code": "KS",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:22:22.605045Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-LA-20260101-V01",
+      "lob": "GL",
+      "state_code": "LA",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:23:48.432021Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-ME-20260101-V01",
+      "lob": "GL",
+      "state_code": "ME",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:25:27.781441Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-ME-20260101-V02",
+      "lob": "GL",
+      "state_code": "ME",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:25:31.594000Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MD-20260101-V01",
+      "lob": "GL",
+      "state_code": "MD",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:26:27.520294Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MA-20260101-V01",
+      "lob": "GL",
+      "state_code": "MA",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:27:10.353977Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MI-20260101-V01",
+      "lob": "GL",
+      "state_code": "MI",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:27:57.869280Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MN-20260101-V01",
+      "lob": "GL",
+      "state_code": "MN",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:28:45.116616Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MS-20260101-V01",
+      "lob": "GL",
+      "state_code": "MS",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:29:32.929511Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MO-20260101-V02",
+      "lob": "GL",
+      "state_code": "MO",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:30:39.939012Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MT-20260101-V01",
+      "lob": "GL",
+      "state_code": "MT",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:31:43.667825Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NE-20260101-V01",
+      "lob": "GL",
+      "state_code": "NE",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:32:30.954376Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NV-20260101-V01",
+      "lob": "GL",
+      "state_code": "NV",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:33:06.304044Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NM-20260101-V01",
+      "lob": "GL",
+      "state_code": "NM",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:36:37.374398Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NC-20260101-V01",
+      "lob": "GL",
+      "state_code": "NC",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:38:14.672553Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-ND-20260101-V01",
+      "lob": "GL",
+      "state_code": "ND",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:38:55.468864Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-OH-20260101-V01",
+      "lob": "GL",
+      "state_code": "OH",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:39:46.982007Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-PA-20260101-V01",
+      "lob": "GL",
+      "state_code": "PA",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:41:48.963099Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-PR-20260101-V01",
+      "lob": "GL",
+      "state_code": "PR",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:42:31.756537Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-SC-20260101-V02",
+      "lob": "GL",
+      "state_code": "SC",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:43:43.263232Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-SD-20260101-V01",
+      "lob": "GL",
+      "state_code": "SD",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:44:37.719107Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-TN-20260101-V01",
+      "lob": "GL",
+      "state_code": "TN",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:45:31.437984Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-UT-20260101-V01",
+      "lob": "GL",
+      "state_code": "UT",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:47:07.425444Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WA-20260101-V02",
+      "lob": "GL",
+      "state_code": "WA",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:49:24.112987Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WV-20260101-V01",
+      "lob": "GL",
+      "state_code": "WV",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:49:56.727648Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WI-20260101-V01",
+      "lob": "GL",
+      "state_code": "WI",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:50:43.195966Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WY-20260101-V01",
+      "lob": "GL",
+      "state_code": "WY",
+      "effective_date": "2026-01-01",
+      "load_timestamp": "2026-06-18T12:51:32.354734Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AR-20251201-V01",
+      "lob": "GL",
+      "state_code": "AR",
+      "effective_date": "2025-12-01",
+      "load_timestamp": "2026-06-18T12:10:48.205120Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-ID-20251201-V01",
+      "lob": "GL",
+      "state_code": "ID",
+      "effective_date": "2025-12-01",
+      "load_timestamp": "2026-06-18T12:18:13.493011Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NV-20251201-V01",
+      "lob": "GL",
+      "state_code": "NV",
+      "effective_date": "2025-12-01",
+      "load_timestamp": "2026-06-18T12:33:01.804074Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NH-20251201-V01",
+      "lob": "GL",
+      "state_code": "NH",
+      "effective_date": "2025-12-01",
+      "load_timestamp": "2026-06-18T12:33:33.122308Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-VT-20251201-V01",
+      "lob": "GL",
+      "state_code": "VT",
+      "effective_date": "2025-12-01",
+      "load_timestamp": "2026-06-18T12:47:48.802922Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WA-20251201-V01",
+      "lob": "GL",
+      "state_code": "WA",
+      "effective_date": "2025-12-01",
+      "load_timestamp": "2026-06-18T12:49:16.585028Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-DE-20251101-V01",
+      "lob": "GL",
+      "state_code": "DE",
+      "effective_date": "2025-11-01",
+      "load_timestamp": "2026-06-18T12:14:19.809762Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-ME-20251101-V01",
+      "lob": "GL",
+      "state_code": "ME",
+      "effective_date": "2025-11-01",
+      "load_timestamp": "2026-06-18T12:25:23.831653Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MD-20251101-V01",
+      "lob": "GL",
+      "state_code": "MD",
+      "effective_date": "2025-11-01",
+      "load_timestamp": "2026-06-18T12:26:23.419378Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MO-20251101-V01",
+      "lob": "GL",
+      "state_code": "MO",
+      "effective_date": "2025-11-01",
+      "load_timestamp": "2026-06-18T12:30:36.257152Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MT-20251101-V01",
+      "lob": "GL",
+      "state_code": "MT",
+      "effective_date": "2025-11-01",
+      "load_timestamp": "2026-06-18T12:31:37.990309Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WV-20251101-V01",
+      "lob": "GL",
+      "state_code": "WV",
+      "effective_date": "2025-11-01",
+      "load_timestamp": "2026-06-18T12:49:53.129303Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CO-20251001-V01",
+      "lob": "GL",
+      "state_code": "CO",
+      "effective_date": "2025-10-01",
+      "load_timestamp": "2026-06-18T12:12:01.485092Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NM-20251001-V01",
+      "lob": "GL",
+      "state_code": "NM",
+      "effective_date": "2025-10-01",
+      "load_timestamp": "2026-06-18T12:36:27.500473Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-ND-20251001-V01",
+      "lob": "GL",
+      "state_code": "ND",
+      "effective_date": "2025-10-01",
+      "load_timestamp": "2026-06-18T12:38:52.296905Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-SD-20251001-V01",
+      "lob": "GL",
+      "state_code": "SD",
+      "effective_date": "2025-10-01",
+      "load_timestamp": "2026-06-18T12:44:32.480950Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IL-20250901-V01",
+      "lob": "GL",
+      "state_code": "IL",
+      "effective_date": "2025-09-01",
+      "load_timestamp": "2026-06-18T12:19:07.735313Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MT-20250901-V01",
+      "lob": "GL",
+      "state_code": "MT",
+      "effective_date": "2025-09-01",
+      "load_timestamp": "2026-06-18T12:31:34.032006Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-PR-20250901-V01",
+      "lob": "GL",
+      "state_code": "PR",
+      "effective_date": "2025-09-01",
+      "load_timestamp": "2026-06-18T12:42:27.972910Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AK-20250801-V01",
+      "lob": "GL",
+      "state_code": "AK",
+      "effective_date": "2025-08-01",
+      "load_timestamp": "2026-06-18T12:09:21.308617Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-TX-20250801-V01",
+      "lob": "GL",
+      "state_code": "TX",
+      "effective_date": "2025-08-01",
+      "load_timestamp": "2026-06-18T12:46:16.198448Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-UT-20250801-V01",
+      "lob": "GL",
+      "state_code": "UT",
+      "effective_date": "2025-08-01",
+      "load_timestamp": "2026-06-18T12:47:02.599267Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WA-20250701-V01",
+      "lob": "GL",
+      "state_code": "WA",
+      "effective_date": "2025-07-01",
+      "load_timestamp": "2026-06-18T12:49:10.384776Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-DC-20250601-V01",
+      "lob": "GL",
+      "state_code": "DC",
+      "effective_date": "2025-06-01",
+      "load_timestamp": "2026-06-18T12:15:15.658961Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-DC-20250601-V02",
+      "lob": "GL",
+      "state_code": "DC",
+      "effective_date": "2025-06-01",
+      "load_timestamp": "2026-06-18T12:15:19.431371Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IL-20250601-V01",
+      "lob": "GL",
+      "state_code": "IL",
+      "effective_date": "2025-06-01",
+      "load_timestamp": "2026-06-18T12:19:03.575181Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-OK-20250601-V01",
+      "lob": "GL",
+      "state_code": "OK",
+      "effective_date": "2025-06-01",
+      "load_timestamp": "2026-06-18T12:40:25.712029Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-TN-20250601-V01",
+      "lob": "GL",
+      "state_code": "TN",
+      "effective_date": "2025-06-01",
+      "load_timestamp": "2026-06-18T12:45:26.609809Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WI-20250601-V01",
+      "lob": "GL",
+      "state_code": "WI",
+      "effective_date": "2025-06-01",
+      "load_timestamp": "2026-06-18T12:50:38.419346Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WY-20250601-V01",
+      "lob": "GL",
+      "state_code": "WY",
+      "effective_date": "2025-06-01",
+      "load_timestamp": "2026-06-18T12:51:27.841225Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-FL-20250501-V01",
+      "lob": "GL",
+      "state_code": "FL",
+      "effective_date": "2025-05-01",
+      "load_timestamp": "2026-06-18T12:16:35.310758Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IN-20250501-V01",
+      "lob": "GL",
+      "state_code": "IN",
+      "effective_date": "2025-05-01",
+      "load_timestamp": "2026-06-18T12:20:29.729314Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-LA-20250501-V01",
+      "lob": "GL",
+      "state_code": "LA",
+      "effective_date": "2025-05-01",
+      "load_timestamp": "2026-06-18T12:23:42.367632Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MN-20250501-V01",
+      "lob": "GL",
+      "state_code": "MN",
+      "effective_date": "2025-05-01",
+      "load_timestamp": "2026-06-18T12:28:40.906281Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-OH-20250501-V01",
+      "lob": "GL",
+      "state_code": "OH",
+      "effective_date": "2025-05-01",
+      "load_timestamp": "2026-06-18T12:39:43.192323Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-PA-20250501-V01",
+      "lob": "GL",
+      "state_code": "PA",
+      "effective_date": "2025-05-01",
+      "load_timestamp": "2026-06-18T12:41:44.160393Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-UT-20250501-V01",
+      "lob": "GL",
+      "state_code": "UT",
+      "effective_date": "2025-05-01",
+      "load_timestamp": "2026-06-18T12:46:58.181762Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CT-20250401-V01",
+      "lob": "GL",
+      "state_code": "CT",
+      "effective_date": "2025-04-01",
+      "load_timestamp": "2026-06-18T12:12:55.722277Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IA-20250401-V01",
+      "lob": "GL",
+      "state_code": "IA",
+      "effective_date": "2025-04-01",
+      "load_timestamp": "2026-06-18T12:21:23.532792Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-KY-20250401-V01",
+      "lob": "GL",
+      "state_code": "KY",
+      "effective_date": "2025-04-01",
+      "load_timestamp": "2026-06-18T12:22:54.895707Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MI-20250401-V01",
+      "lob": "GL",
+      "state_code": "MI",
+      "effective_date": "2025-04-01",
+      "load_timestamp": "2026-06-18T12:27:49.585178Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NY-20250401-V03",
+      "lob": "GL",
+      "state_code": "NY",
+      "effective_date": "2025-04-01",
+      "load_timestamp": "2026-06-18T12:37:31.667501Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-DE-20250301-V01",
+      "lob": "GL",
+      "state_code": "DE",
+      "effective_date": "2025-03-01",
+      "load_timestamp": "2026-06-18T12:14:15.905264Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-GA-20250301-V01",
+      "lob": "GL",
+      "state_code": "GA",
+      "effective_date": "2025-03-01",
+      "load_timestamp": "2026-06-18T12:17:36.056616Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-KS-20250301-V01",
+      "lob": "GL",
+      "state_code": "KS",
+      "effective_date": "2025-03-01",
+      "load_timestamp": "2026-06-18T12:22:18.681253Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MS-20250301-V01",
+      "lob": "GL",
+      "state_code": "MS",
+      "effective_date": "2025-03-01",
+      "load_timestamp": "2026-06-18T12:29:29.125613Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NE-20250301-V01",
+      "lob": "GL",
+      "state_code": "NE",
+      "effective_date": "2025-03-01",
+      "load_timestamp": "2026-06-18T12:32:24.504198Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NJ-20250301-V01",
+      "lob": "GL",
+      "state_code": "NJ",
+      "effective_date": "2025-03-01",
+      "load_timestamp": "2026-06-18T12:34:41.723006Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NC-20250301-V01",
+      "lob": "GL",
+      "state_code": "NC",
+      "effective_date": "2025-03-01",
+      "load_timestamp": "2026-06-18T12:38:09.607003Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-OR-20250301-V01",
+      "lob": "GL",
+      "state_code": "OR",
+      "effective_date": "2025-03-01",
+      "load_timestamp": "2026-06-18T12:40:59.931754Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WV-20250301-V01",
+      "lob": "GL",
+      "state_code": "WV",
+      "effective_date": "2025-03-01",
+      "load_timestamp": "2026-06-18T12:49:49.498357Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WY-20250301-V01",
+      "lob": "GL",
+      "state_code": "WY",
+      "effective_date": "2025-03-01",
+      "load_timestamp": "2026-06-18T12:51:23.945859Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-OK-20250201-V01",
+      "lob": "GL",
+      "state_code": "OK",
+      "effective_date": "2025-02-01",
+      "load_timestamp": "2026-06-18T12:40:22.298228Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-VA-20250201-V01",
+      "lob": "GL",
+      "state_code": "VA",
+      "effective_date": "2025-02-01",
+      "load_timestamp": "2026-06-18T12:48:23.335117Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AL-20250101-V01",
+      "lob": "GL",
+      "state_code": "AL",
+      "effective_date": "2025-01-01",
+      "load_timestamp": "2026-06-18T12:08:20.539264Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AL-20250101-V02",
+      "lob": "GL",
+      "state_code": "AL",
+      "effective_date": "2025-01-01",
+      "load_timestamp": "2026-06-18T12:08:25.237254Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AZ-20250101-V01",
+      "lob": "GL",
+      "state_code": "AZ",
+      "effective_date": "2025-01-01",
+      "load_timestamp": "2026-06-18T12:10:09.340064Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AZ-20250101-V02",
+      "lob": "GL",
+      "state_code": "AZ",
+      "effective_date": "2025-01-01",
+      "load_timestamp": "2026-06-18T12:10:13.323387Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-ME-20250101-V01",
+      "lob": "GL",
+      "state_code": "ME",
+      "effective_date": "2025-01-01",
+      "load_timestamp": "2026-06-18T12:25:19.772436Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MA-20250101-V01",
+      "lob": "GL",
+      "state_code": "MA",
+      "effective_date": "2025-01-01",
+      "load_timestamp": "2026-06-18T12:27:06.296170Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-RI-20250101-V01",
+      "lob": "GL",
+      "state_code": "RI",
+      "effective_date": "2025-01-01",
+      "load_timestamp": "2026-06-18T12:43:12.041328Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-SC-20250101-V01",
+      "lob": "GL",
+      "state_code": "SC",
+      "effective_date": "2025-01-01",
+      "load_timestamp": "2026-06-18T12:43:40.121504Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-VT-20250101-V01",
+      "lob": "GL",
+      "state_code": "VT",
+      "effective_date": "2025-01-01",
+      "load_timestamp": "2026-06-18T12:47:43.316315Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AZ-20241201-V01",
+      "lob": "GL",
+      "state_code": "AZ",
+      "effective_date": "2024-12-01",
+      "load_timestamp": "2026-06-18T12:10:05.518885Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AR-20241201-V01",
+      "lob": "GL",
+      "state_code": "AR",
+      "effective_date": "2024-12-01",
+      "load_timestamp": "2026-06-18T12:10:44.950989Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-DC-20241201-V01",
+      "lob": "GL",
+      "state_code": "DC",
+      "effective_date": "2024-12-01",
+      "load_timestamp": "2026-06-18T12:15:11.729014Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-FL-20241201-V01",
+      "lob": "GL",
+      "state_code": "FL",
+      "effective_date": "2024-12-01",
+      "load_timestamp": "2026-06-18T12:16:29.999763Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-ID-20241201-V01",
+      "lob": "GL",
+      "state_code": "ID",
+      "effective_date": "2024-12-01",
+      "load_timestamp": "2026-06-18T12:18:10.416634Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NV-20241201-V01",
+      "lob": "GL",
+      "state_code": "NV",
+      "effective_date": "2024-12-01",
+      "load_timestamp": "2026-06-18T12:32:58.119859Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NH-20241201-V01",
+      "lob": "GL",
+      "state_code": "NH",
+      "effective_date": "2024-12-01",
+      "load_timestamp": "2026-06-18T12:33:27.972341Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-VT-20241201-V01",
+      "lob": "GL",
+      "state_code": "VT",
+      "effective_date": "2024-12-01",
+      "load_timestamp": "2026-06-18T12:47:37.997600Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WA-20241201-V01",
+      "lob": "GL",
+      "state_code": "WA",
+      "effective_date": "2024-12-01",
+      "load_timestamp": "2026-06-18T12:49:04.969761Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CA-20241101-V01",
+      "lob": "GL",
+      "state_code": "CA",
+      "effective_date": "2024-11-01",
+      "load_timestamp": "2026-06-18T12:11:21.484172Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-DE-20241101-V01",
+      "lob": "GL",
+      "state_code": "DE",
+      "effective_date": "2024-11-01",
+      "load_timestamp": "2026-06-18T12:14:11.057643Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MD-20241101-V01",
+      "lob": "GL",
+      "state_code": "MD",
+      "effective_date": "2024-11-01",
+      "load_timestamp": "2026-06-18T12:26:19.636649Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MO-20241101-V01",
+      "lob": "GL",
+      "state_code": "MO",
+      "effective_date": "2024-11-01",
+      "load_timestamp": "2026-06-18T12:30:32.249264Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MT-20241101-V02",
+      "lob": "GL",
+      "state_code": "MT",
+      "effective_date": "2024-11-01",
+      "load_timestamp": "2026-06-18T12:31:28.084068Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NY-20241101-V02",
+      "lob": "GL",
+      "state_code": "NY",
+      "effective_date": "2024-11-01",
+      "load_timestamp": "2026-06-18T12:37:25.539321Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CA-20241001-V01",
+      "lob": "GL",
+      "state_code": "CA",
+      "effective_date": "2024-10-01",
+      "load_timestamp": "2026-06-18T12:11:17.451099Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CO-20241001-V01",
+      "lob": "GL",
+      "state_code": "CO",
+      "effective_date": "2024-10-01",
+      "load_timestamp": "2026-06-18T12:11:56.336652Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MT-20241001-V01",
+      "lob": "GL",
+      "state_code": "MT",
+      "effective_date": "2024-10-01",
+      "load_timestamp": "2026-06-18T12:31:23.547136Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NM-20241001-V01",
+      "lob": "GL",
+      "state_code": "NM",
+      "effective_date": "2024-10-01",
+      "load_timestamp": "2026-06-18T12:36:12.617790Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NY-20241001-V01",
+      "lob": "GL",
+      "state_code": "NY",
+      "effective_date": "2024-10-01",
+      "load_timestamp": "2026-06-18T12:37:20.508983Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-ND-20241001-V01",
+      "lob": "GL",
+      "state_code": "ND",
+      "effective_date": "2024-10-01",
+      "load_timestamp": "2026-06-18T12:38:48.403558Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-SD-20241001-V01",
+      "lob": "GL",
+      "state_code": "SD",
+      "effective_date": "2024-10-01",
+      "load_timestamp": "2026-06-18T12:44:25.025764Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WA-20241001-V01",
+      "lob": "GL",
+      "state_code": "WA",
+      "effective_date": "2024-10-01",
+      "load_timestamp": "2026-06-18T12:48:59.900667Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IL-20240901-V01",
+      "lob": "GL",
+      "state_code": "IL",
+      "effective_date": "2024-09-01",
+      "load_timestamp": "2026-06-18T12:18:56.539065Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MO-20240901-V02",
+      "lob": "GL",
+      "state_code": "MO",
+      "effective_date": "2024-09-01",
+      "load_timestamp": "2026-06-18T12:30:27.723614Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AL-20240801-V01",
+      "lob": "GL",
+      "state_code": "AL",
+      "effective_date": "2024-08-01",
+      "load_timestamp": "2026-06-18T12:08:15.677836Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AZ-20240801-V01",
+      "lob": "GL",
+      "state_code": "AZ",
+      "effective_date": "2024-08-01",
+      "load_timestamp": "2026-06-18T12:10:01.595527Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MT-20240801-V01",
+      "lob": "GL",
+      "state_code": "MT",
+      "effective_date": "2024-08-01",
+      "load_timestamp": "2026-06-18T12:31:18.801137Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-SC-20240801-V01",
+      "lob": "GL",
+      "state_code": "SC",
+      "effective_date": "2024-08-01",
+      "load_timestamp": "2026-06-18T12:43:36.947734Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-TX-20240801-V01",
+      "lob": "GL",
+      "state_code": "TX",
+      "effective_date": "2024-08-01",
+      "load_timestamp": "2026-06-18T12:46:10.741091Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AK-20240701-V01",
+      "lob": "GL",
+      "state_code": "AK",
+      "effective_date": "2024-07-01",
+      "load_timestamp": "2026-06-18T12:09:18.734668Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IN-20240701-V01",
+      "lob": "GL",
+      "state_code": "IN",
+      "effective_date": "2024-07-01",
+      "load_timestamp": "2026-06-18T12:20:24.588318Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NY-20240701-V01",
+      "lob": "GL",
+      "state_code": "NY",
+      "effective_date": "2024-07-01",
+      "load_timestamp": "2026-06-18T12:37:15.124964Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-ND-20240701-V01",
+      "lob": "GL",
+      "state_code": "ND",
+      "effective_date": "2024-07-01",
+      "load_timestamp": "2026-06-18T12:38:45.082467Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-RI-20240701-V01",
+      "lob": "GL",
+      "state_code": "RI",
+      "effective_date": "2024-07-01",
+      "load_timestamp": "2026-06-18T12:43:07.866139Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-SD-20240701-V01",
+      "lob": "GL",
+      "state_code": "SD",
+      "effective_date": "2024-07-01",
+      "load_timestamp": "2026-06-18T12:44:19.667566Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-DC-20240601-V01",
+      "lob": "GL",
+      "state_code": "DC",
+      "effective_date": "2024-06-01",
+      "load_timestamp": "2026-06-18T12:15:08.266951Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IL-20240601-V01",
+      "lob": "GL",
+      "state_code": "IL",
+      "effective_date": "2024-06-01",
+      "load_timestamp": "2026-06-18T12:18:52.380774Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IN-20240601-V01",
+      "lob": "GL",
+      "state_code": "IN",
+      "effective_date": "2024-06-01",
+      "load_timestamp": "2026-06-18T12:20:19.407641Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NJ-20240601-V01",
+      "lob": "GL",
+      "state_code": "NJ",
+      "effective_date": "2024-06-01",
+      "load_timestamp": "2026-06-18T12:34:33.159051Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-OK-20240601-V01",
+      "lob": "GL",
+      "state_code": "OK",
+      "effective_date": "2024-06-01",
+      "load_timestamp": "2026-06-18T12:40:18.081639Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-TN-20240601-V01",
+      "lob": "GL",
+      "state_code": "TN",
+      "effective_date": "2024-06-01",
+      "load_timestamp": "2026-06-18T12:45:19.272954Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WI-20240601-V01",
+      "lob": "GL",
+      "state_code": "WI",
+      "effective_date": "2024-06-01",
+      "load_timestamp": "2026-06-18T12:50:33.908639Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-FL-20240501-V01",
+      "lob": "GL",
+      "state_code": "FL",
+      "effective_date": "2024-05-01",
+      "load_timestamp": "2026-06-18T12:16:24.622706Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-KY-20240501-V01",
+      "lob": "GL",
+      "state_code": "KY",
+      "effective_date": "2024-05-01",
+      "load_timestamp": "2026-06-18T12:22:52.108101Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-LA-20240501-V01",
+      "lob": "GL",
+      "state_code": "LA",
+      "effective_date": "2024-05-01",
+      "load_timestamp": "2026-06-18T12:23:37.711264Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MI-20240501-V01",
+      "lob": "GL",
+      "state_code": "MI",
+      "effective_date": "2024-05-01",
+      "load_timestamp": "2026-06-18T12:27:44.218651Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MN-20240501-V01",
+      "lob": "GL",
+      "state_code": "MN",
+      "effective_date": "2024-05-01",
+      "load_timestamp": "2026-06-18T12:28:36.134228Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-OH-20240501-V01",
+      "lob": "GL",
+      "state_code": "OH",
+      "effective_date": "2024-05-01",
+      "load_timestamp": "2026-06-18T12:39:39.080521Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-PA-20240501-V01",
+      "lob": "GL",
+      "state_code": "PA",
+      "effective_date": "2024-05-01",
+      "load_timestamp": "2026-06-18T12:41:39.267514Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-UT-20240501-V01",
+      "lob": "GL",
+      "state_code": "UT",
+      "effective_date": "2024-05-01",
+      "load_timestamp": "2026-06-18T12:46:53.888247Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CT-20240401-V01",
+      "lob": "GL",
+      "state_code": "CT",
+      "effective_date": "2024-04-01",
+      "load_timestamp": "2026-06-18T12:12:51.163731Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IA-20240401-V01",
+      "lob": "GL",
+      "state_code": "IA",
+      "effective_date": "2024-04-01",
+      "load_timestamp": "2026-06-18T12:21:20.110684Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-ND-20240401-V01",
+      "lob": "GL",
+      "state_code": "ND",
+      "effective_date": "2024-04-01",
+      "load_timestamp": "2026-06-18T12:38:41.608303Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-FL-20240301-V01",
+      "lob": "GL",
+      "state_code": "FL",
+      "effective_date": "2024-03-01",
+      "load_timestamp": "2026-06-18T12:16:19.647305Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-GA-20240301-V01",
+      "lob": "GL",
+      "state_code": "GA",
+      "effective_date": "2024-03-01",
+      "load_timestamp": "2026-06-18T12:17:24.273670Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-GA-20240301-V02",
+      "lob": "GL",
+      "state_code": "GA",
+      "effective_date": "2024-03-01",
+      "load_timestamp": "2026-06-18T12:17:27.749390Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-GA-20240301-V03",
+      "lob": "GL",
+      "state_code": "GA",
+      "effective_date": "2024-03-01",
+      "load_timestamp": "2026-06-18T12:17:31.865398Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-KS-20240301-V01",
+      "lob": "GL",
+      "state_code": "KS",
+      "effective_date": "2024-03-01",
+      "load_timestamp": "2026-06-18T12:22:15.060852Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MS-20240301-V01",
+      "lob": "GL",
+      "state_code": "MS",
+      "effective_date": "2024-03-01",
+      "load_timestamp": "2026-06-18T12:29:24.549808Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MO-20240301-V01",
+      "lob": "GL",
+      "state_code": "MO",
+      "effective_date": "2024-03-01",
+      "load_timestamp": "2026-06-18T12:30:22.868180Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MT-20240301-V01",
+      "lob": "GL",
+      "state_code": "MT",
+      "effective_date": "2024-03-01",
+      "load_timestamp": "2026-06-18T12:31:14.260612Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NE-20240301-V01",
+      "lob": "GL",
+      "state_code": "NE",
+      "effective_date": "2024-03-01",
+      "load_timestamp": "2026-06-18T12:32:19.049617Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NJ-20240301-V02",
+      "lob": "GL",
+      "state_code": "NJ",
+      "effective_date": "2024-03-01",
+      "load_timestamp": "2026-06-18T12:34:26.988081Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NC-20240301-V02",
+      "lob": "GL",
+      "state_code": "NC",
+      "effective_date": "2024-03-01",
+      "load_timestamp": "2026-06-18T12:38:04.119758Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-OR-20240301-V02",
+      "lob": "GL",
+      "state_code": "OR",
+      "effective_date": "2024-03-01",
+      "load_timestamp": "2026-06-18T12:40:55.711812Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-PR-20240301-V01",
+      "lob": "GL",
+      "state_code": "PR",
+      "effective_date": "2024-03-01",
+      "load_timestamp": "2026-06-18T12:42:22.584929Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WV-20240301-V01",
+      "lob": "GL",
+      "state_code": "WV",
+      "effective_date": "2024-03-01",
+      "load_timestamp": "2026-06-18T12:49:45.097794Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WY-20240301-V01",
+      "lob": "GL",
+      "state_code": "WY",
+      "effective_date": "2024-03-01",
+      "load_timestamp": "2026-06-18T12:51:20.107571Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-GA-20240201-V01",
+      "lob": "GL",
+      "state_code": "GA",
+      "effective_date": "2024-02-01",
+      "load_timestamp": "2026-06-18T12:17:20.937784Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-VA-20240201-V02",
+      "lob": "GL",
+      "state_code": "VA",
+      "effective_date": "2024-02-01",
+      "load_timestamp": "2026-06-18T12:48:18.978260Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AL-20240101-V01",
+      "lob": "GL",
+      "state_code": "AL",
+      "effective_date": "2024-01-01",
+      "load_timestamp": "2026-06-18T12:08:06.953156Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AL-20240101-V02",
+      "lob": "GL",
+      "state_code": "AL",
+      "effective_date": "2024-01-01",
+      "load_timestamp": "2026-06-18T12:08:11.708606Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AZ-20240101-V01",
+      "lob": "GL",
+      "state_code": "AZ",
+      "effective_date": "2024-01-01",
+      "load_timestamp": "2026-06-18T12:09:52.754097Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AZ-20240101-V02",
+      "lob": "GL",
+      "state_code": "AZ",
+      "effective_date": "2024-01-01",
+      "load_timestamp": "2026-06-18T12:09:57.400729Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CO-20240101-V01",
+      "lob": "GL",
+      "state_code": "CO",
+      "effective_date": "2024-01-01",
+      "load_timestamp": "2026-06-18T12:11:45.843067Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CO-20240101-V02",
+      "lob": "GL",
+      "state_code": "CO",
+      "effective_date": "2024-01-01",
+      "load_timestamp": "2026-06-18T12:11:52.169882Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-ME-20240101-V01",
+      "lob": "GL",
+      "state_code": "ME",
+      "effective_date": "2024-01-01",
+      "load_timestamp": "2026-06-18T12:25:10.454935Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-ME-20240101-V02",
+      "lob": "GL",
+      "state_code": "ME",
+      "effective_date": "2024-01-01",
+      "load_timestamp": "2026-06-18T12:25:14.710676Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MD-20240101-V01",
+      "lob": "GL",
+      "state_code": "MD",
+      "effective_date": "2024-01-01",
+      "load_timestamp": "2026-06-18T12:26:10.497652Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MD-20240101-V02",
+      "lob": "GL",
+      "state_code": "MD",
+      "effective_date": "2024-01-01",
+      "load_timestamp": "2026-06-18T12:26:14.989838Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NV-20240101-V01",
+      "lob": "GL",
+      "state_code": "NV",
+      "effective_date": "2024-01-01",
+      "load_timestamp": "2026-06-18T12:32:54.784932Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-RI-20240101-V02",
+      "lob": "GL",
+      "state_code": "RI",
+      "effective_date": "2024-01-01",
+      "load_timestamp": "2026-06-18T12:43:03.920791Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-TX-20240101-V01",
+      "lob": "GL",
+      "state_code": "TX",
+      "effective_date": "2024-01-01",
+      "load_timestamp": "2026-06-18T12:46:04.327018Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WA-20240101-V02",
+      "lob": "GL",
+      "state_code": "WA",
+      "effective_date": "2024-01-01",
+      "load_timestamp": "2026-06-18T12:48:54.935582Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AL-20231201-V01",
+      "lob": "GL",
+      "state_code": "AL",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:07:58.327107Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AL-20231201-V02",
+      "lob": "GL",
+      "state_code": "AL",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:08:02.700750Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AK-20231201-V02",
+      "lob": "GL",
+      "state_code": "AK",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:09:15.542455Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AZ-20231201-V01",
+      "lob": "GL",
+      "state_code": "AZ",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:09:43.867510Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AZ-20231201-V02",
+      "lob": "GL",
+      "state_code": "AZ",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:09:47.582443Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AR-20231201-V01",
+      "lob": "GL",
+      "state_code": "AR",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:10:37.961253Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AR-20231201-V02",
+      "lob": "GL",
+      "state_code": "AR",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:10:41.644130Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CA-20231201-V01",
+      "lob": "GL",
+      "state_code": "CA",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:11:12.758682Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CO-20231201-V01",
+      "lob": "GL",
+      "state_code": "CO",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:11:38.072524Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CO-20231201-V02",
+      "lob": "GL",
+      "state_code": "CO",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:11:41.843017Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CT-20231201-V02",
+      "lob": "GL",
+      "state_code": "CT",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:12:46.562880Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CW-20231201-V01",
+      "lob": "GL",
+      "state_code": "CW",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:13:26.185930Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CW-20231201-V02",
+      "lob": "GL",
+      "state_code": "CW",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:13:28.715465Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CW-20231201-V03",
+      "lob": "GL",
+      "state_code": "CW",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:13:32.067867Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-DE-20231201-V01",
+      "lob": "GL",
+      "state_code": "DE",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:13:58.305727Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-DE-20231201-V02",
+      "lob": "GL",
+      "state_code": "DE",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:14:04.674887Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-DC-20231201-V01",
+      "lob": "GL",
+      "state_code": "DC",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:14:59.897397Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-DC-20231201-V02",
+      "lob": "GL",
+      "state_code": "DC",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:15:04.719936Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-FL-20231201-V02",
+      "lob": "GL",
+      "state_code": "FL",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:16:15.324096Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-GA-20231201-V01",
+      "lob": "GL",
+      "state_code": "GA",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:17:14.322776Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-GA-20231201-V02",
+      "lob": "GL",
+      "state_code": "GA",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:17:17.818846Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-ID-20231201-V01",
+      "lob": "GL",
+      "state_code": "ID",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:18:03.580875Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-ID-20231201-V02",
+      "lob": "GL",
+      "state_code": "ID",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:18:07.299410Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IL-20231201-V01",
+      "lob": "GL",
+      "state_code": "IL",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:18:43.973824Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IL-20231201-V02",
+      "lob": "GL",
+      "state_code": "IL",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:18:48.596602Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IN-20231201-V01",
+      "lob": "GL",
+      "state_code": "IN",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:20:09.838831Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IN-20231201-V02",
+      "lob": "GL",
+      "state_code": "IN",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:20:14.758036Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IA-20231201-V01",
+      "lob": "GL",
+      "state_code": "IA",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:21:12.935040Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IA-20231201-V02",
+      "lob": "GL",
+      "state_code": "IA",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:21:16.452498Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-KS-20231201-V01",
+      "lob": "GL",
+      "state_code": "KS",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:22:06.452727Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-KS-20231201-V02",
+      "lob": "GL",
+      "state_code": "KS",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:22:11.085261Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-KY-20231201-V01",
+      "lob": "GL",
+      "state_code": "KY",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:22:46.339483Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-KY-20231201-V02",
+      "lob": "GL",
+      "state_code": "KY",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:22:49.199985Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-LA-20231201-V01",
+      "lob": "GL",
+      "state_code": "LA",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:23:24.676945Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-LA-20231201-V02",
+      "lob": "GL",
+      "state_code": "LA",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:23:30.110466Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-ME-20231201-V01",
+      "lob": "GL",
+      "state_code": "ME",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:24:59.782195Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-ME-20231201-V02",
+      "lob": "GL",
+      "state_code": "ME",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:25:05.958703Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MD-20231201-V01",
+      "lob": "GL",
+      "state_code": "MD",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:26:00.560749Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MD-20231201-V02",
+      "lob": "GL",
+      "state_code": "MD",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:26:06.191392Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MA-20231201-V01",
+      "lob": "GL",
+      "state_code": "MA",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:26:58.475076Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MA-20231201-V02",
+      "lob": "GL",
+      "state_code": "MA",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:27:02.439554Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MI-20231201-V02",
+      "lob": "GL",
+      "state_code": "MI",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:27:40.379607Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MN-20231201-V02",
+      "lob": "GL",
+      "state_code": "MN",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:28:31.707001Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MS-20231201-V02",
+      "lob": "GL",
+      "state_code": "MS",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:29:18.937469Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MO-20231201-V02",
+      "lob": "GL",
+      "state_code": "MO",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:30:18.385000Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MT-20231201-V02",
+      "lob": "GL",
+      "state_code": "MT",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:31:10.075711Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NE-20231201-V02",
+      "lob": "GL",
+      "state_code": "NE",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:32:14.656935Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NV-20231201-V02",
+      "lob": "GL",
+      "state_code": "NV",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:32:51.932363Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NH-20231201-V02",
+      "lob": "GL",
+      "state_code": "NH",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:33:23.748106Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NJ-20231201-V02",
+      "lob": "GL",
+      "state_code": "NJ",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:34:20.775293Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NM-20231201-V02",
+      "lob": "GL",
+      "state_code": "NM",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:35:55.986719Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NC-20231201-V02",
+      "lob": "GL",
+      "state_code": "NC",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:37:58.527897Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-ND-20231201-V02",
+      "lob": "GL",
+      "state_code": "ND",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:38:37.900020Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-OH-20231201-V02",
+      "lob": "GL",
+      "state_code": "OH",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:39:35.260729Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-OK-20231201-V02",
+      "lob": "GL",
+      "state_code": "OK",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:40:14.482421Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-OR-20231201-V02",
+      "lob": "GL",
+      "state_code": "OR",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:40:51.833779Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-PA-20231201-V02",
+      "lob": "GL",
+      "state_code": "PA",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:41:34.568429Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-RI-20231201-V02",
+      "lob": "GL",
+      "state_code": "RI",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:42:59.749192Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-SC-20231201-V03",
+      "lob": "GL",
+      "state_code": "SC",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:43:33.890985Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-SD-20231201-V02",
+      "lob": "GL",
+      "state_code": "SD",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:44:12.850171Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-TN-20231201-V02",
+      "lob": "GL",
+      "state_code": "TN",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:45:12.953406Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-UT-20231201-V02",
+      "lob": "GL",
+      "state_code": "UT",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:46:49.229181Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-VT-20231201-V02",
+      "lob": "GL",
+      "state_code": "VT",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:47:33.659607Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-VA-20231201-V02",
+      "lob": "GL",
+      "state_code": "VA",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:48:13.847424Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WA-20231201-V02",
+      "lob": "GL",
+      "state_code": "WA",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:48:51.015172Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WV-20231201-V02",
+      "lob": "GL",
+      "state_code": "WV",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:49:40.795355Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WI-20231201-V02",
+      "lob": "GL",
+      "state_code": "WI",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:50:30.078572Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WY-20231201-V02",
+      "lob": "GL",
+      "state_code": "WY",
+      "effective_date": "2023-12-01",
+      "load_timestamp": "2026-06-18T12:51:16.469142Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-DE-20231101-V01",
+      "lob": "GL",
+      "state_code": "DE",
+      "effective_date": "2023-11-01",
+      "load_timestamp": "2026-06-18T12:13:53.057145Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-FL-20231101-V01",
+      "lob": "GL",
+      "state_code": "FL",
+      "effective_date": "2023-11-01",
+      "load_timestamp": "2026-06-18T12:16:09.427190Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MD-20231101-V01",
+      "lob": "GL",
+      "state_code": "MD",
+      "effective_date": "2023-11-01",
+      "load_timestamp": "2026-06-18T12:25:55.482896Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MO-20231101-V01",
+      "lob": "GL",
+      "state_code": "MO",
+      "effective_date": "2023-11-01",
+      "load_timestamp": "2026-06-18T12:30:13.402689Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MT-20231101-V01",
+      "lob": "GL",
+      "state_code": "MT",
+      "effective_date": "2023-11-01",
+      "load_timestamp": "2026-06-18T12:31:06.187722Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AK-20231001-V01",
+      "lob": "GL",
+      "state_code": "AK",
+      "effective_date": "2023-10-01",
+      "load_timestamp": "2026-06-18T12:09:12.285242Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CO-20231001-V01",
+      "lob": "GL",
+      "state_code": "CO",
+      "effective_date": "2023-10-01",
+      "load_timestamp": "2026-06-18T12:11:34.193071Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-FL-20231001-V02",
+      "lob": "GL",
+      "state_code": "FL",
+      "effective_date": "2023-10-01",
+      "load_timestamp": "2026-06-18T12:16:02.046202Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NM-20231001-V01",
+      "lob": "GL",
+      "state_code": "NM",
+      "effective_date": "2023-10-01",
+      "load_timestamp": "2026-06-18T12:35:41.139819Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NY-20231001-V01",
+      "lob": "GL",
+      "state_code": "NY",
+      "effective_date": "2023-10-01",
+      "load_timestamp": "2026-06-18T12:37:09.268249Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-ND-20231001-V02",
+      "lob": "GL",
+      "state_code": "ND",
+      "effective_date": "2023-10-01",
+      "load_timestamp": "2026-06-18T12:38:34.258379Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-SD-20231001-V01",
+      "lob": "GL",
+      "state_code": "SD",
+      "effective_date": "2023-10-01",
+      "load_timestamp": "2026-06-18T12:44:07.559503Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WA-20231001-V01",
+      "lob": "GL",
+      "state_code": "WA",
+      "effective_date": "2023-10-01",
+      "load_timestamp": "2026-06-18T12:48:47.347197Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IL-20230901-V01",
+      "lob": "GL",
+      "state_code": "IL",
+      "effective_date": "2023-09-01",
+      "load_timestamp": "2026-06-18T12:18:39.945069Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MO-20230901-V01",
+      "lob": "GL",
+      "state_code": "MO",
+      "effective_date": "2023-09-01",
+      "load_timestamp": "2026-06-18T12:30:09.188265Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AL-20230801-V01",
+      "lob": "GL",
+      "state_code": "AL",
+      "effective_date": "2023-08-01",
+      "load_timestamp": "2026-06-18T12:07:52.115841Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AZ-20230801-V01",
+      "lob": "GL",
+      "state_code": "AZ",
+      "effective_date": "2023-08-01",
+      "load_timestamp": "2026-06-18T12:09:40.573307Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WI-20230801-V01",
+      "lob": "GL",
+      "state_code": "WI",
+      "effective_date": "2023-08-01",
+      "load_timestamp": "2026-06-18T12:50:26.254333Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CT-20230701-V02",
+      "lob": "GL",
+      "state_code": "CT",
+      "effective_date": "2023-07-01",
+      "load_timestamp": "2026-06-18T12:12:41.322459Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MI-20230701-V01",
+      "lob": "GL",
+      "state_code": "MI",
+      "effective_date": "2023-07-01",
+      "load_timestamp": "2026-06-18T12:27:36.411093Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-OH-20230701-V01",
+      "lob": "GL",
+      "state_code": "OH",
+      "effective_date": "2023-07-01",
+      "load_timestamp": "2026-06-18T12:39:31.349624Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-OK-20230701-V01",
+      "lob": "GL",
+      "state_code": "OK",
+      "effective_date": "2023-07-01",
+      "load_timestamp": "2026-06-18T12:40:10.959668Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-PA-20230701-V01",
+      "lob": "GL",
+      "state_code": "PA",
+      "effective_date": "2023-07-01",
+      "load_timestamp": "2026-06-18T12:41:30.110546Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-TN-20230701-V01",
+      "lob": "GL",
+      "state_code": "TN",
+      "effective_date": "2023-07-01",
+      "load_timestamp": "2026-06-18T12:45:07.457409Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-UT-20230701-V01",
+      "lob": "GL",
+      "state_code": "UT",
+      "effective_date": "2023-07-01",
+      "load_timestamp": "2026-06-18T12:46:42.814687Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AK-20230601-V01",
+      "lob": "GL",
+      "state_code": "AK",
+      "effective_date": "2023-06-01",
+      "load_timestamp": "2026-06-18T12:09:08.788078Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-DC-20230601-V01",
+      "lob": "GL",
+      "state_code": "DC",
+      "effective_date": "2023-06-01",
+      "load_timestamp": "2026-06-18T12:14:56.082268Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IN-20230601-V01",
+      "lob": "GL",
+      "state_code": "IN",
+      "effective_date": "2023-06-01",
+      "load_timestamp": "2026-06-18T12:20:05.812097Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NY-20230601-V01",
+      "lob": "GL",
+      "state_code": "NY",
+      "effective_date": "2023-06-01",
+      "load_timestamp": "2026-06-18T12:37:03.915160Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-OR-20230601-V01",
+      "lob": "GL",
+      "state_code": "OR",
+      "effective_date": "2023-06-01",
+      "load_timestamp": "2026-06-18T12:40:47.997197Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-TN-20230601-V03",
+      "lob": "GL",
+      "state_code": "TN",
+      "effective_date": "2023-06-01",
+      "load_timestamp": "2026-06-18T12:45:02.287145Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WV-20230601-V01",
+      "lob": "GL",
+      "state_code": "WV",
+      "effective_date": "2023-06-01",
+      "load_timestamp": "2026-06-18T12:49:33.811051Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AL-20230501-V01",
+      "lob": "GL",
+      "state_code": "AL",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:07:47.542614Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AZ-20230501-V01",
+      "lob": "GL",
+      "state_code": "AZ",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:09:37.230767Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AR-20230501-V01",
+      "lob": "GL",
+      "state_code": "AR",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:10:35.309687Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CA-20230501-V01",
+      "lob": "GL",
+      "state_code": "CA",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:11:09.866945Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CO-20230501-V01",
+      "lob": "GL",
+      "state_code": "CO",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:11:30.420877Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CW-20230501-V01",
+      "lob": "GL",
+      "state_code": "CW",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:13:23.459672Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-DE-20230501-V01",
+      "lob": "GL",
+      "state_code": "DE",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:13:48.622953Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-GA-20230501-V02",
+      "lob": "GL",
+      "state_code": "GA",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:17:03.093699Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-GA-20230501-V03",
+      "lob": "GL",
+      "state_code": "GA",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:17:06.560504Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-GA-20230501-V04",
+      "lob": "GL",
+      "state_code": "GA",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:17:11.126083Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-ID-20230501-V01",
+      "lob": "GL",
+      "state_code": "ID",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:17:59.797207Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IL-20230501-V02",
+      "lob": "GL",
+      "state_code": "IL",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:18:36.108844Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IN-20230501-V01",
+      "lob": "GL",
+      "state_code": "IN",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:20:02.024656Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-KS-20230501-V01",
+      "lob": "GL",
+      "state_code": "KS",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:22:02.541442Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-KY-20230501-V01",
+      "lob": "GL",
+      "state_code": "KY",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:22:43.216761Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-LA-20230501-V01",
+      "lob": "GL",
+      "state_code": "LA",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:23:21.075527Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-ME-20230501-V01",
+      "lob": "GL",
+      "state_code": "ME",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:24:51.981368Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MD-20230501-V01",
+      "lob": "GL",
+      "state_code": "MD",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:25:50.102872Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MA-20230501-V01",
+      "lob": "GL",
+      "state_code": "MA",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:26:54.646190Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MI-20230501-V01",
+      "lob": "GL",
+      "state_code": "MI",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:27:32.662991Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MN-20230501-V02",
+      "lob": "GL",
+      "state_code": "MN",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:28:27.668864Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MS-20230501-V01",
+      "lob": "GL",
+      "state_code": "MS",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:29:13.496473Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MO-20230501-V01",
+      "lob": "GL",
+      "state_code": "MO",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:30:04.835201Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MT-20230501-V01",
+      "lob": "GL",
+      "state_code": "MT",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:31:01.984103Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NE-20230501-V01",
+      "lob": "GL",
+      "state_code": "NE",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:32:09.639473Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NV-20230501-V01",
+      "lob": "GL",
+      "state_code": "NV",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:32:48.691926Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NH-20230501-V01",
+      "lob": "GL",
+      "state_code": "NH",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:33:19.602490Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NJ-20230501-V03",
+      "lob": "GL",
+      "state_code": "NJ",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:34:13.338458Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NM-20230501-V01",
+      "lob": "GL",
+      "state_code": "NM",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:35:22.171418Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NY-20230501-V01",
+      "lob": "GL",
+      "state_code": "NY",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:36:58.101603Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NC-20230501-V01",
+      "lob": "GL",
+      "state_code": "NC",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:37:53.123258Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-ND-20230501-V01",
+      "lob": "GL",
+      "state_code": "ND",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:38:30.934331Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-OH-20230501-V01",
+      "lob": "GL",
+      "state_code": "OH",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:39:27.659150Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-OK-20230501-V01",
+      "lob": "GL",
+      "state_code": "OK",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:40:07.600000Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-OR-20230501-V01",
+      "lob": "GL",
+      "state_code": "OR",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:40:44.042554Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-PA-20230501-V01",
+      "lob": "GL",
+      "state_code": "PA",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:41:25.836537Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-RI-20230501-V01",
+      "lob": "GL",
+      "state_code": "RI",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:42:54.955396Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-SC-20230501-V01",
+      "lob": "GL",
+      "state_code": "SC",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:43:30.433278Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-SD-20230501-V01",
+      "lob": "GL",
+      "state_code": "SD",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:44:00.676056Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-TX-20230501-V01",
+      "lob": "GL",
+      "state_code": "TX",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:45:58.855324Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-UT-20230501-V02",
+      "lob": "GL",
+      "state_code": "UT",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:46:36.796426Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-VT-20230501-V01",
+      "lob": "GL",
+      "state_code": "VT",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:47:28.558362Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-VA-20230501-V01",
+      "lob": "GL",
+      "state_code": "VA",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:48:08.422821Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WA-20230501-V01",
+      "lob": "GL",
+      "state_code": "WA",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:48:43.521501Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WI-20230501-V02",
+      "lob": "GL",
+      "state_code": "WI",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:50:22.663828Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WY-20230501-V01",
+      "lob": "GL",
+      "state_code": "WY",
+      "effective_date": "2023-05-01",
+      "load_timestamp": "2026-06-18T12:51:12.802537Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CW-20230401-V01",
+      "lob": "GL",
+      "state_code": "CW",
+      "effective_date": "2023-04-01",
+      "load_timestamp": "2026-06-18T12:13:20.934385Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-FL-20230401-V01",
+      "lob": "GL",
+      "state_code": "FL",
+      "effective_date": "2023-04-01",
+      "load_timestamp": "2026-06-18T12:15:57.029690Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IL-20230401-V01",
+      "lob": "GL",
+      "state_code": "IL",
+      "effective_date": "2023-04-01",
+      "load_timestamp": "2026-06-18T12:18:32.279458Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-LA-20230401-V02",
+      "lob": "GL",
+      "state_code": "LA",
+      "effective_date": "2023-04-01",
+      "load_timestamp": "2026-06-18T12:23:16.745661Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MI-20230401-V01",
+      "lob": "GL",
+      "state_code": "MI",
+      "effective_date": "2023-04-01",
+      "load_timestamp": "2026-06-18T12:27:28.499174Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MS-20230401-V01",
+      "lob": "GL",
+      "state_code": "MS",
+      "effective_date": "2023-04-01",
+      "load_timestamp": "2026-06-18T12:29:09.324052Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MO-20230401-V01",
+      "lob": "GL",
+      "state_code": "MO",
+      "effective_date": "2023-04-01",
+      "load_timestamp": "2026-06-18T12:30:00.274030Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MT-20230401-V01",
+      "lob": "GL",
+      "state_code": "MT",
+      "effective_date": "2023-04-01",
+      "load_timestamp": "2026-06-18T12:30:58.513161Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NE-20230401-V01",
+      "lob": "GL",
+      "state_code": "NE",
+      "effective_date": "2023-04-01",
+      "load_timestamp": "2026-06-18T12:32:05.836272Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NC-20230401-V02",
+      "lob": "GL",
+      "state_code": "NC",
+      "effective_date": "2023-04-01",
+      "load_timestamp": "2026-06-18T12:37:48.108770Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-OK-20230401-V02",
+      "lob": "GL",
+      "state_code": "OK",
+      "effective_date": "2023-04-01",
+      "load_timestamp": "2026-06-18T12:40:04.126406Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-PR-20230401-V02",
+      "lob": "GL",
+      "state_code": "PR",
+      "effective_date": "2023-04-01",
+      "load_timestamp": "2026-06-18T12:42:19.081117Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WI-20230401-V01",
+      "lob": "GL",
+      "state_code": "WI",
+      "effective_date": "2023-04-01",
+      "load_timestamp": "2026-06-18T12:50:18.943470Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CA-20230201-V01",
+      "lob": "GL",
+      "state_code": "CA",
+      "effective_date": "2023-02-01",
+      "load_timestamp": "2026-06-18T12:11:06.324141Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NY-20230201-V01",
+      "lob": "GL",
+      "state_code": "NY",
+      "effective_date": "2023-02-01",
+      "load_timestamp": "2026-06-18T12:36:53.579880Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-OR-20230201-V01",
+      "lob": "GL",
+      "state_code": "OR",
+      "effective_date": "2023-02-01",
+      "load_timestamp": "2026-06-18T12:40:40.536941Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-ID-20221101-V01",
+      "lob": "GL",
+      "state_code": "ID",
+      "effective_date": "2022-11-01",
+      "load_timestamp": "2026-06-18T12:17:54.536181Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MT-20221101-V02",
+      "lob": "GL",
+      "state_code": "MT",
+      "effective_date": "2022-11-01",
+      "load_timestamp": "2026-06-18T12:30:55.312654Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-OH-20221101-V01",
+      "lob": "GL",
+      "state_code": "OH",
+      "effective_date": "2022-11-01",
+      "load_timestamp": "2026-06-18T12:39:23.561751Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NM-20221001-V02",
+      "lob": "GL",
+      "state_code": "NM",
+      "effective_date": "2022-10-01",
+      "load_timestamp": "2026-06-18T12:35:09.655361Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CW-20220901-V02",
+      "lob": "GL",
+      "state_code": "CW",
+      "effective_date": "2022-09-01",
+      "load_timestamp": "2026-06-18T12:13:18.549478Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-DC-20220901-V02",
+      "lob": "GL",
+      "state_code": "DC",
+      "effective_date": "2022-09-01",
+      "load_timestamp": "2026-06-18T12:14:51.759978Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-OH-20220901-V02",
+      "lob": "GL",
+      "state_code": "OH",
+      "effective_date": "2022-09-01",
+      "load_timestamp": "2026-06-18T12:39:18.893219Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-OK-20220901-V02",
+      "lob": "GL",
+      "state_code": "OK",
+      "effective_date": "2022-09-01",
+      "load_timestamp": "2026-06-18T12:40:00.653799Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WI-20220901-V02",
+      "lob": "GL",
+      "state_code": "WI",
+      "effective_date": "2022-09-01",
+      "load_timestamp": "2026-06-18T12:50:14.668835Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-PR-20220801-V01",
+      "lob": "GL",
+      "state_code": "PR",
+      "effective_date": "2022-08-01",
+      "load_timestamp": "2026-06-18T12:42:15.298025Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-TN-20220601-V01",
+      "lob": "GL",
+      "state_code": "TN",
+      "effective_date": "2022-06-01",
+      "load_timestamp": "2026-06-18T12:44:57.199862Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MN-20220401-V01",
+      "lob": "GL",
+      "state_code": "MN",
+      "effective_date": "2022-04-01",
+      "load_timestamp": "2026-06-18T12:28:23.093222Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-TX-20220401-V02",
+      "lob": "GL",
+      "state_code": "TX",
+      "effective_date": "2022-04-01",
+      "load_timestamp": "2026-06-18T12:45:53.832865Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IN-20220301-V01",
+      "lob": "GL",
+      "state_code": "IN",
+      "effective_date": "2022-03-01",
+      "load_timestamp": "2026-06-18T12:19:58.357043Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-LA-20220301-V01",
+      "lob": "GL",
+      "state_code": "LA",
+      "effective_date": "2022-03-01",
+      "load_timestamp": "2026-06-18T12:23:13.244450Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-OH-20220301-V01",
+      "lob": "GL",
+      "state_code": "OH",
+      "effective_date": "2022-03-01",
+      "load_timestamp": "2026-06-18T12:39:13.476140Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-OK-20220301-V02",
+      "lob": "GL",
+      "state_code": "OK",
+      "effective_date": "2022-03-01",
+      "load_timestamp": "2026-06-18T12:39:55.432385Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-PA-20220301-V02",
+      "lob": "GL",
+      "state_code": "PA",
+      "effective_date": "2022-03-01",
+      "load_timestamp": "2026-06-18T12:41:21.841822Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-UT-20220301-V02",
+      "lob": "GL",
+      "state_code": "UT",
+      "effective_date": "2022-03-01",
+      "load_timestamp": "2026-06-18T12:46:32.092574Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WA-20220301-V01",
+      "lob": "GL",
+      "state_code": "WA",
+      "effective_date": "2022-03-01",
+      "load_timestamp": "2026-06-18T12:48:39.782641Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-FL-20220201-V01",
+      "lob": "GL",
+      "state_code": "FL",
+      "effective_date": "2022-02-01",
+      "load_timestamp": "2026-06-18T12:15:51.250299Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-GA-20220201-V01",
+      "lob": "GL",
+      "state_code": "GA",
+      "effective_date": "2022-02-01",
+      "load_timestamp": "2026-06-18T12:16:59.322866Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-KY-20220201-V01",
+      "lob": "GL",
+      "state_code": "KY",
+      "effective_date": "2022-02-01",
+      "load_timestamp": "2026-06-18T12:22:40.437132Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IA-20220101-V01",
+      "lob": "GL",
+      "state_code": "IA",
+      "effective_date": "2022-01-01",
+      "load_timestamp": "2026-06-18T12:21:09.460247Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WY-20220101-V01",
+      "lob": "GL",
+      "state_code": "WY",
+      "effective_date": "2022-01-01",
+      "load_timestamp": "2026-06-18T12:51:08.770515Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MI-20211201-V01",
+      "lob": "GL",
+      "state_code": "MI",
+      "effective_date": "2021-12-01",
+      "load_timestamp": "2026-06-18T12:27:25.081463Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MS-20211201-V01",
+      "lob": "GL",
+      "state_code": "MS",
+      "effective_date": "2021-12-01",
+      "load_timestamp": "2026-06-18T12:29:05.952758Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NE-20211201-V01",
+      "lob": "GL",
+      "state_code": "NE",
+      "effective_date": "2021-12-01",
+      "load_timestamp": "2026-06-18T12:32:02.238875Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NC-20211201-V01",
+      "lob": "GL",
+      "state_code": "NC",
+      "effective_date": "2021-12-01",
+      "load_timestamp": "2026-06-18T12:37:42.531415Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-OR-20211201-V01",
+      "lob": "GL",
+      "state_code": "OR",
+      "effective_date": "2021-12-01",
+      "load_timestamp": "2026-06-18T12:40:37.123380Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AL-20211101-V01",
+      "lob": "GL",
+      "state_code": "AL",
+      "effective_date": "2021-11-01",
+      "load_timestamp": "2026-06-18T12:07:35.206272Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CA-20211101-V01",
+      "lob": "GL",
+      "state_code": "CA",
+      "effective_date": "2021-11-01",
+      "load_timestamp": "2026-06-18T12:11:02.824646Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CT-20211101-V01",
+      "lob": "GL",
+      "state_code": "CT",
+      "effective_date": "2021-11-01",
+      "load_timestamp": "2026-06-18T12:12:35.743385Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-PR-20211101-V01",
+      "lob": "GL",
+      "state_code": "PR",
+      "effective_date": "2021-11-01",
+      "load_timestamp": "2026-06-18T12:42:11.470844Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-DE-20211001-V01",
+      "lob": "GL",
+      "state_code": "DE",
+      "effective_date": "2021-10-01",
+      "load_timestamp": "2026-06-18T12:13:44.721140Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-DC-20211001-V01",
+      "lob": "GL",
+      "state_code": "DC",
+      "effective_date": "2021-10-01",
+      "load_timestamp": "2026-06-18T12:14:47.558389Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MA-20211001-V01",
+      "lob": "GL",
+      "state_code": "MA",
+      "effective_date": "2021-10-01",
+      "load_timestamp": "2026-06-18T12:26:50.945318Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NY-20211001-V01",
+      "lob": "GL",
+      "state_code": "NY",
+      "effective_date": "2021-10-01",
+      "load_timestamp": "2026-06-18T12:36:49.270587Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AZ-20210901-V01",
+      "lob": "GL",
+      "state_code": "AZ",
+      "effective_date": "2021-09-01",
+      "load_timestamp": "2026-06-18T12:09:34.019516Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MT-20210901-V01",
+      "lob": "GL",
+      "state_code": "MT",
+      "effective_date": "2021-09-01",
+      "load_timestamp": "2026-06-18T12:30:51.772588Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NH-20210901-V01",
+      "lob": "GL",
+      "state_code": "NH",
+      "effective_date": "2021-09-01",
+      "load_timestamp": "2026-06-18T12:33:15.060352Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-OR-20210901-V01",
+      "lob": "GL",
+      "state_code": "OR",
+      "effective_date": "2021-09-01",
+      "load_timestamp": "2026-06-18T12:40:33.904869Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-RI-20210901-V01",
+      "lob": "GL",
+      "state_code": "RI",
+      "effective_date": "2021-09-01",
+      "load_timestamp": "2026-06-18T12:42:50.184606Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-SC-20210901-V01",
+      "lob": "GL",
+      "state_code": "SC",
+      "effective_date": "2021-09-01",
+      "load_timestamp": "2026-06-18T12:43:27.097977Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-VT-20210901-V01",
+      "lob": "GL",
+      "state_code": "VT",
+      "effective_date": "2021-09-01",
+      "load_timestamp": "2026-06-18T12:47:22.874150Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-VA-20210901-V01",
+      "lob": "GL",
+      "state_code": "VA",
+      "effective_date": "2021-09-01",
+      "load_timestamp": "2026-06-18T12:48:03.362492Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AR-20210801-V01",
+      "lob": "GL",
+      "state_code": "AR",
+      "effective_date": "2021-08-01",
+      "load_timestamp": "2026-06-18T12:10:32.540179Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CO-20210801-V01",
+      "lob": "GL",
+      "state_code": "CO",
+      "effective_date": "2021-08-01",
+      "load_timestamp": "2026-06-18T12:11:26.972915Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CW-20210801-V01",
+      "lob": "GL",
+      "state_code": "CW",
+      "effective_date": "2021-08-01",
+      "load_timestamp": "2026-06-18T12:13:15.674746Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-ID-20210801-V01",
+      "lob": "GL",
+      "state_code": "ID",
+      "effective_date": "2021-08-01",
+      "load_timestamp": "2026-06-18T12:17:51.122288Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IN-20210801-V01",
+      "lob": "GL",
+      "state_code": "IN",
+      "effective_date": "2021-08-01",
+      "load_timestamp": "2026-06-18T12:19:55.219641Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IA-20210801-V01",
+      "lob": "GL",
+      "state_code": "IA",
+      "effective_date": "2021-08-01",
+      "load_timestamp": "2026-06-18T12:21:06.341638Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-KS-20210801-V01",
+      "lob": "GL",
+      "state_code": "KS",
+      "effective_date": "2021-08-01",
+      "load_timestamp": "2026-06-18T12:21:58.730863Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-ME-20210801-V01",
+      "lob": "GL",
+      "state_code": "ME",
+      "effective_date": "2021-08-01",
+      "load_timestamp": "2026-06-18T12:24:43.879360Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MD-20210801-V01",
+      "lob": "GL",
+      "state_code": "MD",
+      "effective_date": "2021-08-01",
+      "load_timestamp": "2026-06-18T12:25:44.392237Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MI-20210801-V01",
+      "lob": "GL",
+      "state_code": "MI",
+      "effective_date": "2021-08-01",
+      "load_timestamp": "2026-06-18T12:27:20.890868Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MN-20210801-V01",
+      "lob": "GL",
+      "state_code": "MN",
+      "effective_date": "2021-08-01",
+      "load_timestamp": "2026-06-18T12:28:18.370983Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MS-20210801-V01",
+      "lob": "GL",
+      "state_code": "MS",
+      "effective_date": "2021-08-01",
+      "load_timestamp": "2026-06-18T12:29:01.556020Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-MO-20210801-V01",
+      "lob": "GL",
+      "state_code": "MO",
+      "effective_date": "2021-08-01",
+      "load_timestamp": "2026-06-18T12:29:55.327740Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NE-20210801-V01",
+      "lob": "GL",
+      "state_code": "NE",
+      "effective_date": "2021-08-01",
+      "load_timestamp": "2026-06-18T12:31:58.721311Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NV-20210801-V01",
+      "lob": "GL",
+      "state_code": "NV",
+      "effective_date": "2021-08-01",
+      "load_timestamp": "2026-06-18T12:32:45.456416Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NM-20210801-V01",
+      "lob": "GL",
+      "state_code": "NM",
+      "effective_date": "2021-08-01",
+      "load_timestamp": "2026-06-18T12:35:03.467434Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-ND-20210801-V01",
+      "lob": "GL",
+      "state_code": "ND",
+      "effective_date": "2021-08-01",
+      "load_timestamp": "2026-06-18T12:38:27.724050Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-OH-20210801-V01",
+      "lob": "GL",
+      "state_code": "OH",
+      "effective_date": "2021-08-01",
+      "load_timestamp": "2026-06-18T12:39:09.076026Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-TN-20210801-V01",
+      "lob": "GL",
+      "state_code": "TN",
+      "effective_date": "2021-08-01",
+      "load_timestamp": "2026-06-18T12:44:52.149455Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-UT-20210801-V01",
+      "lob": "GL",
+      "state_code": "UT",
+      "effective_date": "2021-08-01",
+      "load_timestamp": "2026-06-18T12:46:27.269282Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WV-20210801-V01",
+      "lob": "GL",
+      "state_code": "WV",
+      "effective_date": "2021-08-01",
+      "load_timestamp": "2026-06-18T12:49:29.383011Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WY-20210801-V01",
+      "lob": "GL",
+      "state_code": "WY",
+      "effective_date": "2021-08-01",
+      "load_timestamp": "2026-06-18T12:51:04.404040Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-NJ-20210701-V01",
+      "lob": "GL",
+      "state_code": "NJ",
+      "effective_date": "2021-07-01",
+      "load_timestamp": "2026-06-18T12:34:03.268558Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-GA-20210601-V01",
+      "lob": "GL",
+      "state_code": "GA",
+      "effective_date": "2021-06-01",
+      "load_timestamp": "2026-06-18T12:16:55.281354Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-SD-20210601-V01",
+      "lob": "GL",
+      "state_code": "SD",
+      "effective_date": "2021-06-01",
+      "load_timestamp": "2026-06-18T12:43:56.706264Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-TX-20210601-V01",
+      "lob": "GL",
+      "state_code": "TX",
+      "effective_date": "2021-06-01",
+      "load_timestamp": "2026-06-18T12:45:47.218717Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-AK-20210401-V01",
+      "lob": "GL",
+      "state_code": "AK",
+      "effective_date": "2021-04-01",
+      "load_timestamp": "2026-06-18T12:09:05.605601Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-FL-20210401-V01",
+      "lob": "GL",
+      "state_code": "FL",
+      "effective_date": "2021-04-01",
+      "load_timestamp": "2026-06-18T12:15:46.600133Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-IL-20210401-V02",
+      "lob": "GL",
+      "state_code": "IL",
+      "effective_date": "2021-04-01",
+      "load_timestamp": "2026-06-18T12:18:28.783695Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-KY-20210401-V01",
+      "lob": "GL",
+      "state_code": "KY",
+      "effective_date": "2021-04-01",
+      "load_timestamp": "2026-06-18T12:22:37.601275Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-PA-20210401-V01",
+      "lob": "GL",
+      "state_code": "PA",
+      "effective_date": "2021-04-01",
+      "load_timestamp": "2026-06-18T12:41:17.914863Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-CW-20201201-V01",
+      "lob": "GL",
+      "state_code": "CW",
+      "effective_date": "2020-12-01",
+      "load_timestamp": "2026-06-18T12:13:13.141088Z",
+      "load_status": "ACTIVE"
+    },
+    {
+      "edition_id": "GL-WA-20201201-V01",
+      "lob": "GL",
+      "state_code": "WA",
+      "effective_date": "2020-12-01",
+      "load_timestamp": "2026-06-18T12:48:35.893674Z",
+      "load_status": "ACTIVE"
+    }
+  ],
+  "stale_editions": [],
+  "territory_summary": {
+    "total": 247708,
+    "latest": "2027-04-01"
+  },
+  "zip_update_recommended": false
+}

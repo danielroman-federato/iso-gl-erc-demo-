@@ -1,0 +1,119 @@
+[
+  {
+    "delivery_id": "GL-FL-20260701-V01",
+    "lob": "GL",
+    "state_code": "FL",
+    "effective_date": "2026-07-01",
+    "version": 1,
+    "ready_to_parse": 1,
+    "created_at": "2026-06-18 12:16:45"
+  },
+  {
+    "delivery_id": "GL-FL-20260501-V01",
+    "lob": "GL",
+    "state_code": "FL",
+    "effective_date": "2026-05-01",
+    "version": 1,
+    "ready_to_parse": 1,
+    "created_at": "2026-06-18 12:16:41"
+  },
+  {
+    "delivery_id": "GL-FL-20260101-V01",
+    "lob": "GL",
+    "state_code": "FL",
+    "effective_date": "2026-01-01",
+    "version": 1,
+    "ready_to_parse": 1,
+    "created_at": "2026-06-18 12:16:38"
+  },
+  {
+    "delivery_id": "GL-FL-20250501-V01",
+    "lob": "GL",
+    "state_code": "FL",
+    "effective_date": "2025-05-01",
+    "version": 1,
+    "ready_to_parse": 1,
+    "created_at": "2026-06-18 12:16:33"
+  },
+  {
+    "delivery_id": "GL-FL-20241201-V01",
+    "lob": "GL",
+    "state_code": "FL",
+    "effective_date": "2024-12-01",
+    "version": 1,
+    "ready_to_parse": 1,
+    "created_at": "2026-06-18 12:16:28"
+  },
+  {
+    "delivery_id": "GL-FL-20240501-V01",
+    "lob": "GL",
+    "state_code": "FL",
+    "effective_date": "2024-05-01",
+    "version": 1,
+    "ready_to_parse": 1,
+    "created_at": "2026-06-18 12:16:22"
+  },
+  {
+    "delivery_id": "GL-FL-20240301-V01",
+    "lob": "GL",
+    "state_code": "FL",
+    "effective_date": "2024-03-01",
+    "version": 1,
+    "ready_to_parse": 1,
+    "created_at": "2026-06-18 12:16:18"
+  },
+  {
+    "delivery_id": "GL-FL-20231201-V02",
+    "lob": "GL",
+    "state_code": "FL",
+    "effective_date": "2023-12-01",
+    "version": 2,
+    "ready_to_parse": 1,
+    "created_at": "2026-06-18 12:16:13"
+  },
+  {
+    "delivery_id": "GL-FL-20231101-V01",
+    "lob": "GL",
+    "state_code": "FL",
+    "effective_date": "2023-11-01",
+    "version": 1,
+    "ready_to_parse": 1,
+    "created_at": "2026-06-18 12:16:07"
+  },
+  {
+    "delivery_id": "GL-FL-20231001-V02",
+    "lob": "GL",
+    "state_code": "FL",
+    "effective_date": "2023-10-01",
+    "version": 2,
+    "ready_to_parse": 1,
+    "created_at": "2026-06-18 12:15:59"
+  },
+  {
+    "delivery_id": "GL-FL-20230401-V01",
+    "lob": "GL",
+    "state_code": "FL",
+    "effective_date": "2023-04-01",
+    "version": 1,
+    "ready_to_parse": 1,
+    "created_at": "2026-06-18 12:15:55"
+  },
+  {
+    "delivery_id": "GL-FL-20220201-V01",
+    "lob": "GL",
+    "state_code": "FL",
+    "effective_date": "2022-02-01",
+    "version": 1,
+    "ready_to_parse": 1,
+    "created_at": "2026-06-18 12:15:50"
+  },
+  {
+    "delivery_id": "GL-FL-20210401-V01",
+    "lob": "GL",
+    "state_code": "FL",
+    "effective_date": "2021-04-01",
+    "version": 1,
+    "ready_to_parse": 1,
+    "created_at": "2026-06-18 12:15:43"
+  }
+]

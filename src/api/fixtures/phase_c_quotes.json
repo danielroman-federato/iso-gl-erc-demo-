@@ -1,1 +1,614 @@
-[]
+[
+  {
+    "quote_id": "Q-EE51440765",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "BOUND",
+    "created_at": "2026-06-19T00:17:35.487804Z"
+  },
+  {
+    "quote_id": "Q-2C8D6AE28F",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-19T00:15:32.759326Z"
+  },
+  {
+    "quote_id": "Q-BA63BB5AC6",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-19T00:15:32.459133Z"
+  },
+  {
+    "quote_id": "Q-843F809486",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-19T00:14:28.851617Z"
+  },
+  {
+    "quote_id": "Q-8F596425FC",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-18T23:44:31.801980Z"
+  },
+  {
+    "quote_id": "Q-7C8F4F68C5",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-18T23:43:25.056564Z"
+  },
+  {
+    "quote_id": "Q-A1200AA20A",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-18T23:37:52.775303Z"
+  },
+  {
+    "quote_id": "Q-BD2BD5FE61",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "BOUND",
+    "created_at": "2026-06-18T23:34:50.293374Z"
+  },
+  {
+    "quote_id": "Q-5E54BCD2B7",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-18T23:33:47.476628Z"
+  },
+  {
+    "quote_id": "Q-9804998021",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-18T21:32:05.964522Z"
+  },
+  {
+    "quote_id": "Q-9EEDA12489",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-18T21:32:04.734050Z"
+  },
+  {
+    "quote_id": "Q-1C12E8DAED",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-18T21:32:01.785575Z"
+  },
+  {
+    "quote_id": "Q-5A4A45D53D",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-18T21:31:06.613372Z"
+  },
+  {
+    "quote_id": "Q-D1863AACC9",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-18T21:31:06.087948Z"
+  },
+  {
+    "quote_id": "Q-F6BE022AC8",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-18T21:31:05.703687Z"
+  },
+  {
+    "quote_id": "Q-96A5BFE0F0",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-18T21:21:45.088657Z"
+  },
+  {
+    "quote_id": "Q-375B1775F4",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-18T21:21:44.145819Z"
+  },
+  {
+    "quote_id": "Q-7EF9F46D9E",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-18T20:10:39.918941Z"
+  },
+  {
+    "quote_id": "Q-060FC09C2D",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-18T20:10:39.628512Z"
+  },
+  {
+    "quote_id": "Q-71DDE37DAE",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-18T20:10:39.329607Z"
+  },
+  {
+    "quote_id": "Q-0CE8622F5C",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-18T20:10:39.066630Z"
+  },
+  {
+    "quote_id": "Q-A3A61B268C",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-18T20:10:38.776525Z"
+  },
+  {
+    "quote_id": "Q-85C956D5C4",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-18T20:10:38.499883Z"
+  },
+  {
+    "quote_id": "Q-3A4DB68C19",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-18T20:08:57.569535Z"
+  },
+  {
+    "quote_id": "Q-B11B1FC8F2",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-18T19:29:49.201436Z"
+  },
+  {
+    "quote_id": "Q-18895697D5",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-18T19:29:48.919434Z"
+  },
+  {
+    "quote_id": "Q-7716C20B6B",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-18T19:28:29.336143Z"
+  },
+  {
+    "quote_id": "Q-A3BC4A9D21",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-18T19:26:06.713336Z"
+  },
+  {
+    "quote_id": "Q-5A7F39DC1E",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "DRAFT",
+    "created_at": "2026-06-18T19:25:44.910717Z"
+  },
+  {
+    "quote_id": "Q-A53A322B32",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-18T19:25:34.421249Z"
+  },
+  {
+    "quote_id": "Q-30183BB4D7",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "DRAFT",
+    "created_at": "2026-06-18T19:25:34.272449Z"
+  },
+  {
+    "quote_id": "Q-C1360B8909",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-18T19:24:26.841470Z"
+  },
+  {
+    "quote_id": "Q-8CB806DFCC",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-18T19:23:39.034263Z"
+  },
+  {
+    "quote_id": "Q-F88495887D",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-18T18:59:04.958722Z"
+  },
+  {
+    "quote_id": "Q-EBE1531B08",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-18T18:44:30.430051Z"
+  },
+  {
+    "quote_id": "Q-5278DC39CF",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-18T18:41:22.350485Z"
+  },
+  {
+    "quote_id": "Q-EB106B8D50",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-18T15:39:04.816807Z"
+  },
+  {
+    "quote_id": "Q-56C0D5050A",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-18T15:33:38.957351Z"
+  },
+  {
+    "quote_id": "Q-64954E56C8",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "BOUND",
+    "created_at": "2026-06-18T13:32:57.193307Z"
+  },
+  {
+    "quote_id": "Q-D025B4762D",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "BOUND",
+    "created_at": "2026-06-17T20:44:15.471757Z"
+  },
+  {
+    "quote_id": "Q-69DBF7E71F",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "FORMS_CONFIRMED",
+    "created_at": "2026-06-17T20:37:09.395221Z"
+  },
+  {
+    "quote_id": "Q-57DB76FB12",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "FORMS_CONFIRMED",
+    "created_at": "2026-06-17T20:28:58.541882Z"
+  },
+  {
+    "quote_id": "Q-459C34D546",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "FORMS_CONFIRMED",
+    "created_at": "2026-06-17T20:08:47.909069Z"
+  },
+  {
+    "quote_id": "Q-63DF4416A7",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-17T19:28:35.765444Z"
+  },
+  {
+    "quote_id": "Q-9887F243F3",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-17T19:27:21.863406Z"
+  },
+  {
+    "quote_id": "Q-D2472EDAC0",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-17T19:06:56.717257Z"
+  },
+  {
+    "quote_id": "Q-1122447E61",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-17T18:58:17.720063Z"
+  },
+  {
+    "quote_id": "Q-82897C48D7",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-17T18:41:25.868290Z"
+  },
+  {
+    "quote_id": "Q-6767B25289",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-17T18:40:54.027033Z"
+  },
+  {
+    "quote_id": "Q-B6880E31CA",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "BOUND",
+    "created_at": "2026-06-17T18:22:20.411943Z"
+  },
+  {
+    "quote_id": "Q-E278914468",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-17T18:19:24.628622Z"
+  },
+  {
+    "quote_id": "Q-49294C8650",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-17T18:13:18.266042Z"
+  },
+  {
+    "quote_id": "Q-26F8323273",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "BOUND",
+    "created_at": "2026-06-17T18:02:38.946584Z"
+  },
+  {
+    "quote_id": "Q-64959680ED",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-17T17:47:14.359700Z"
+  },
+  {
+    "quote_id": "Q-3CD5B9BBC2",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-17T17:46:55.846271Z"
+  },
+  {
+    "quote_id": "Q-D83924537C",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-17T17:43:37.172895Z"
+  },
+  {
+    "quote_id": "Q-4D9B691B7E",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-17T17:23:33.687915Z"
+  },
+  {
+    "quote_id": "Q-ADBB6EA5A2",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "BOUND",
+    "created_at": "2026-06-17T14:11:44.308108Z"
+  },
+  {
+    "quote_id": "Q-4B162DAEBB",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-17T14:11:11.052742Z"
+  },
+  {
+    "quote_id": "Q-2F94ACEE7C",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "BOUND",
+    "created_at": "2026-06-17T13:42:03.760516Z"
+  },
+  {
+    "quote_id": "Q-3DAC9B806B",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "BOUND",
+    "created_at": "2026-06-17T13:08:39.746068Z"
+  },
+  {
+    "quote_id": "Q-FC1FFE19BF",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "BOUND",
+    "created_at": "2026-06-17T12:30:45.319830Z"
+  },
+  {
+    "quote_id": "Q-043928BE3B",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "BOUND",
+    "created_at": "2026-06-17T12:26:25.164127Z"
+  },
+  {
+    "quote_id": "Q-3B8EBC84E2",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "BOUND",
+    "created_at": "2026-06-17T12:19:28.940231Z"
+  },
+  {
+    "quote_id": "Q-05C57D8D34",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "FORMS_CONFIRMED",
+    "created_at": "2026-06-17T12:18:50.754391Z"
+  },
+  {
+    "quote_id": "Q-483F42181E",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-17T12:18:26.562793Z"
+  },
+  {
+    "quote_id": "Q-8427EEE36F",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "FORMS_CONFIRMED",
+    "created_at": "2026-06-17T12:13:34.904275Z"
+  },
+  {
+    "quote_id": "Q-8198470F8C",
+    "carrier_id": "ACME",
+    "state_code": "AL",
+    "edition_id": "GL-AL-20260101-V03",
+    "policy_effective_date": "2026-01-01",
+    "status": "QUOTED",
+    "created_at": "2026-06-17T00:16:27.855373Z"
+  }
+]

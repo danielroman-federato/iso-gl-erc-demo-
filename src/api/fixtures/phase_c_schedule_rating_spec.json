@@ -1,0 +1,359 @@
+{
+  "edition_id": "GL-FL-20260501-V01",
+  "categories": [
+    {
+      "code": "LOCATION_EXPOSURE_INSIDE_PREMISES",
+      "label": "Location — Exposure inside premises",
+      "max_credit_pct": 5,
+      "max_debit_pct": 5,
+      "domain_values": [
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        -1,
+        -2,
+        -3,
+        -4,
+        -5
+      ],
+      "erc_table": "DomainScheduleRatingModificationLocationExposureInsidePremisesPct"
+    },
+    {
+      "code": "LOCATION_EXPOSURE_OUTSIDE_PREMISES",
+      "label": "Location — Exposure outside premises",
+      "max_credit_pct": 5,
+      "max_debit_pct": 5,
+      "domain_values": [
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        -1,
+        -2,
+        -3,
+        -4,
+        -5
+      ],
+      "erc_table": "DomainScheduleRatingModificationLocationExposureOutsidePremisesPct"
+    },
+    {
+      "code": "PREMISES",
+      "label": "Premises — Condition and care",
+      "max_credit_pct": 10,
+      "max_debit_pct": 10,
+      "domain_values": [
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        -1,
+        -2,
+        -3,
+        -4,
+        -5,
+        -6,
+        -7,
+        -8,
+        -9,
+        -10
+      ],
+      "erc_table": "DomainScheduleRatingModificationPremisesPct"
+    },
+    {
+      "code": "EQUIPMENT",
+      "label": "Equipment — Type, condition, care",
+      "max_credit_pct": 10,
+      "max_debit_pct": 10,
+      "domain_values": [
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        -1,
+        -2,
+        -3,
+        -4,
+        -5,
+        -6,
+        -7,
+        -8,
+        -9,
+        -10
+      ],
+      "erc_table": "DomainScheduleRatingModificationEquipmentPct"
+    },
+    {
+      "code": "CLASSIFICATION",
+      "label": "Classification — Peculiarities",
+      "max_credit_pct": 10,
+      "max_debit_pct": 10,
+      "domain_values": [
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        -1,
+        -2,
+        -3,
+        -4,
+        -5,
+        -6,
+        -7,
+        -8,
+        -9,
+        -10
+      ],
+      "erc_table": "DomainScheduleRatingModificationClassificationPct"
+    },
+    {
+      "code": "EMPLOYEES",
+      "label": "Employees — Selection, training, supervision, experience",
+      "max_credit_pct": 6,
+      "max_debit_pct": 6,
+      "domain_values": [
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        -1,
+        -2,
+        -3,
+        -4,
+        -5,
+        -6
+      ],
+      "erc_table": "DomainScheduleRatingModificationEmployeesPct"
+    },
+    {
+      "code": "COOPERATION_MEDICAL_FACILITIES",
+      "label": "Cooperation — Medical Facilities",
+      "max_credit_pct": 2,
+      "max_debit_pct": 2,
+      "domain_values": [
+        2,
+        1,
+        0,
+        -1,
+        -2
+      ],
+      "erc_table": "DomainScheduleRatingModificationCooperationMedicalFacilitiesPct"
+    },
+    {
+      "code": "COOPERATION_SAFETY_PROGRAM",
+      "label": "Cooperation — Safety Program",
+      "max_credit_pct": 2,
+      "max_debit_pct": 2,
+      "domain_values": [
+        2,
+        1,
+        0,
+        -1,
+        -2
+      ],
+      "erc_table": "DomainScheduleRatingModificationCooperationSafetyProgramPct"
+    }
+  ],
+  "aggregate": {
+    "max_credit_pct": 25,
+    "max_debit_pct": 25,
+    "erc_credit_table": "ScheduleRatingMaximumCredit",
+    "erc_debit_table": "ScheduleRatingMaximumDebit"
+  },
+  "liquor_aggregate": null,
+  "category_bounds": {
+    "LOCATION_EXPOSURE_INSIDE_PREMISES": {
+      "max_credit_pct": 5,
+      "max_debit_pct": 5,
+      "erc_table": "DomainScheduleRatingModificationLocationExposureInsidePremisesPct",
+      "domain_values": [
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        -1,
+        -2,
+        -3,
+        -4,
+        -5
+      ]
+    },
+    "LOCATION_EXPOSURE_OUTSIDE_PREMISES": {
+      "max_credit_pct": 5,
+      "max_debit_pct": 5,
+      "erc_table": "DomainScheduleRatingModificationLocationExposureOutsidePremisesPct",
+      "domain_values": [
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        -1,
+        -2,
+        -3,
+        -4,
+        -5
+      ]
+    },
+    "PREMISES": {
+      "max_credit_pct": 10,
+      "max_debit_pct": 10,
+      "erc_table": "DomainScheduleRatingModificationPremisesPct",
+      "domain_values": [
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        -1,
+        -2,
+        -3,
+        -4,
+        -5,
+        -6,
+        -7,
+        -8,
+        -9,
+        -10
+      ]
+    },
+    "EQUIPMENT": {
+      "max_credit_pct": 10,
+      "max_debit_pct": 10,
+      "erc_table": "DomainScheduleRatingModificationEquipmentPct",
+      "domain_values": [
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        -1,
+        -2,
+        -3,
+        -4,
+        -5,
+        -6,
+        -7,
+        -8,
+        -9,
+        -10
+      ]
+    },
+    "CLASSIFICATION": {
+      "max_credit_pct": 10,
+      "max_debit_pct": 10,
+      "erc_table": "DomainScheduleRatingModificationClassificationPct",
+      "domain_values": [
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        -1,
+        -2,
+        -3,
+        -4,
+        -5,
+        -6,
+        -7,
+        -8,
+        -9,
+        -10
+      ]
+    },
+    "EMPLOYEES": {
+      "max_credit_pct": 6,
+      "max_debit_pct": 6,
+      "erc_table": "DomainScheduleRatingModificationEmployeesPct",
+      "domain_values": [
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        -1,
+        -2,
+        -3,
+        -4,
+        -5,
+        -6
+      ]
+    },
+    "COOPERATION_MEDICAL_FACILITIES": {
+      "max_credit_pct": 2,
+      "max_debit_pct": 2,
+      "erc_table": "DomainScheduleRatingModificationCooperationMedicalFacilitiesPct",
+      "domain_values": [
+        2,
+        1,
+        0,
+        -1,
+        -2
+      ]
+    },
+    "COOPERATION_SAFETY_PROGRAM": {
+      "max_credit_pct": 2,
+      "max_debit_pct": 2,
+      "erc_table": "DomainScheduleRatingModificationCooperationSafetyProgramPct",
+      "domain_values": [
+        2,
+        1,
+        0,
+        -1,
+        -2
+      ]
+    }
+  },
+  "iso_rule_reference": "CLM Division Six, Rule 26.B (additive)"
+}

@@ -1,0 +1,145 @@
+[
+  {
+    "edition_id": "GL-FL-20260701-V01",
+    "lob": "GL",
+    "state_code": "FL",
+    "effective_date": "2026-07-01",
+    "version": 1,
+    "cw_project_reference": "GL CW 20260101 V01",
+    "load_status": "ACTIVE",
+    "is_current_version_for_date": 1,
+    "load_timestamp": "2026-06-18T12:16:46.674083Z"
+  },
+  {
+    "edition_id": "GL-FL-20260501-V01",
+    "lob": "GL",
+    "state_code": "FL",
+    "effective_date": "2026-05-01",
+    "version": 1,
+    "cw_project_reference": "GL CW 20260101 V01",
+    "load_status": "ACTIVE",
+    "is_current_version_for_date": 1,
+    "load_timestamp": "2026-06-18T12:16:43.002872Z"
+  },
+  {
+    "edition_id": "GL-FL-20260101-V01",
+    "lob": "GL",
+    "state_code": "FL",
+    "effective_date": "2026-01-01",
+    "version": 1,
+    "cw_project_reference": "GL CW 20260101 V01",
+    "load_status": "ACTIVE",
+    "is_current_version_for_date": 1,
+    "load_timestamp": "2026-06-18T12:16:39.148365Z"
+  },
+  {
+    "edition_id": "GL-FL-20250501-V01",
+    "lob": "GL",
+    "state_code": "FL",
+    "effective_date": "2025-05-01",
+    "version": 1,
+    "cw_project_reference": "GL CW 20231201 V03",
+    "load_status": "ACTIVE",
+    "is_current_version_for_date": 1,
+    "load_timestamp": "2026-06-18T12:16:35.310758Z"
+  },
+  {
+    "edition_id": "GL-FL-20241201-V01",
+    "lob": "GL",
+    "state_code": "FL",
+    "effective_date": "2024-12-01",
+    "version": 1,
+    "cw_project_reference": "GL CW 20231201 V02",
+    "load_status": "ACTIVE",
+    "is_current_version_for_date": 1,
+    "load_timestamp": "2026-06-18T12:16:29.999763Z"
+  },
+  {
+    "edition_id": "GL-FL-20240501-V01",
+    "lob": "GL",
+    "state_code": "FL",
+    "effective_date": "2024-05-01",
+    "version": 1,
+    "cw_project_reference": "GL CW 20231201 V02",
+    "load_status": "ACTIVE",
+    "is_current_version_for_date": 1,
+    "load_timestamp": "2026-06-18T12:16:24.622706Z"
+  },
+  {
+    "edition_id": "GL-FL-20240301-V01",
+    "lob": "GL",
+    "state_code": "FL",
+    "effective_date": "2024-03-01",
+    "version": 1,
+    "cw_project_reference": "GL CW 20231201 V02",
+    "load_status": "ACTIVE",
+    "is_current_version_for_date": 1,
+    "load_timestamp": "2026-06-18T12:16:19.647305Z"
+  },
+  {
+    "edition_id": "GL-FL-20231201-V02",
+    "lob": "GL",
+    "state_code": "FL",
+    "effective_date": "2023-12-01",
+    "version": 2,
+    "cw_project_reference": "GL CW 20231201 V02",
+    "load_status": "ACTIVE",
+    "is_current_version_for_date": 1,
+    "load_timestamp": "2026-06-18T12:16:15.324096Z"
+  },
+  {
+    "edition_id": "GL-FL-20231101-V01",
+    "lob": "GL",
+    "state_code": "FL",
+    "effective_date": "2023-11-01",
+    "version": 1,
+    "cw_project_reference": "GL CW 20230501 V01",
+    "load_status": "ACTIVE",
+    "is_current_version_for_date": 1,
+    "load_timestamp": "2026-06-18T12:16:09.427190Z"
+  },
+  {
+    "edition_id": "GL-FL-20231001-V02",
+    "lob": "GL",
+    "state_code": "FL",
+    "effective_date": "2023-10-01",
+    "version": 2,
+    "cw_project_reference": "GL CW 20230501 V01",
+    "load_status": "ACTIVE",
+    "is_current_version_for_date": 1,
+    "load_timestamp": "2026-06-18T12:16:02.046202Z"
+  },
+  {
+    "edition_id": "GL-FL-20230401-V01",
+    "lob": "GL",
+    "state_code": "FL",
+    "effective_date": "2023-04-01",
+    "version": 1,
+    "cw_project_reference": "GL CW 20230401 V01",
+    "load_status": "ACTIVE",
+    "is_current_version_for_date": 1,
+    "load_timestamp": "2026-06-18T12:15:57.029690Z"
+  },
+  {
+    "edition_id": "GL-FL-20220201-V01",
+    "lob": "GL",
+    "state_code": "FL",
+    "effective_date": "2022-02-01",
+    "version": 1,
+    "cw_project_reference": "GL CW 20210801 V01",
+    "load_status": "ACTIVE",
+    "is_current_version_for_date": 1,
+    "load_timestamp": "2026-06-18T12:15:51.250299Z"
+  },
+  {
+    "edition_id": "GL-FL-20210401-V01",
+    "lob": "GL",
+    "state_code": "FL",
+    "effective_date": "2021-04-01",
+    "version": 1,
+    "cw_project_reference": "GL CW 20201201 V01",
+    "load_status": "ACTIVE",
+    "is_current_version_for_date": 1,
+    "load_timestamp": "2026-06-18T12:15:46.600133Z"
+  }
+]

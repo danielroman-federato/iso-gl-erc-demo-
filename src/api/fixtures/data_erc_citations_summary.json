@@ -1,1 +1,6 @@
-{ "by_table": [], "total_citations": 0 }
+{
+  "total_citations": 5618,
+  "distinct_circulars": 766,
+  "distinct_editions": 565,
+  "editions_without_manifest": 1
+}

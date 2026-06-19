@@ -1,7 +1,266 @@
 {
-  "lanes": {},
-  "carrier_algorithm_model": null,
-  "edition_id": null,
-  "bureau_version_hash": null,
-  "composed_version_hash": null
+  "carrier_id": "ACME",
+  "lob": "GL",
+  "state_code": "FL",
+  "edition_id": "GL-FL-20260501-V01",
+  "policy_effective_date": "2026-06-01",
+  "algorithm_model_version": "v1-75bd6203441fdc7e",
+  "lanes": {
+    "PremOps": [
+      {
+        "step_id": "PO-1",
+        "lane": "PremOps",
+        "label": "Bureau Loss Cost Lookup",
+        "bureau_immutable": true,
+        "overlay_live": false,
+        "override_count": 0,
+        "overrides": [],
+        "overlay": null
+      },
+      {
+        "step_id": "PO-2",
+        "lane": "PremOps",
+        "label": "LCM (Loss Cost Multiplier)",
+        "bureau_immutable": false,
+        "overlay_live": false,
+        "override_count": 0,
+        "overrides": [],
+        "overlay": null
+      },
+      {
+        "step_id": "PO-2B",
+        "lane": "PremOps",
+        "label": "Tier Rating Factor",
+        "bureau_immutable": false,
+        "overlay_live": true,
+        "override_count": 0,
+        "overrides": [],
+        "overlay": null
+      },
+      {
+        "step_id": "PO-2C",
+        "lane": "PremOps",
+        "label": "Claims-Made Step Factor",
+        "bureau_immutable": true,
+        "overlay_live": false,
+        "override_count": 0,
+        "overrides": [],
+        "overlay": null
+      },
+      {
+        "step_id": "PO-3",
+        "lane": "PremOps",
+        "label": "ILTA Assignment",
+        "bureau_immutable": true,
+        "overlay_live": false,
+        "override_count": 0,
+        "overrides": [],
+        "overlay": null
+      },
+      {
+        "step_id": "PO-4",
+        "lane": "PremOps",
+        "label": "ILF Lookup",
+        "bureau_immutable": true,
+        "overlay_live": false,
+        "override_count": 0,
+        "overrides": [],
+        "overlay": null
+      },
+      {
+        "step_id": "PO-5",
+        "lane": "PremOps",
+        "label": "ELP Lookup",
+        "bureau_immutable": true,
+        "overlay_live": false,
+        "override_count": 0,
+        "overrides": [],
+        "overlay": null
+      },
+      {
+        "step_id": "PO-6",
+        "lane": "PremOps",
+        "label": "Deductible Adjustment",
+        "bureau_immutable": false,
+        "overlay_live": false,
+        "override_count": 0,
+        "overrides": [],
+        "overlay": null
+      },
+      {
+        "step_id": "PO-7",
+        "lane": "PremOps",
+        "label": "Base Premium Calculation",
+        "bureau_immutable": false,
+        "overlay_live": false,
+        "override_count": 0,
+        "overrides": [],
+        "overlay": null
+      },
+      {
+        "step_id": "PO-8",
+        "lane": "PremOps",
+        "label": "ELP Premium",
+        "bureau_immutable": false,
+        "overlay_live": false,
+        "override_count": 0,
+        "overrides": [],
+        "overlay": null
+      },
+      {
+        "step_id": "PO-MP",
+        "lane": "PremOps",
+        "label": "Medical Payments Premium",
+        "bureau_immutable": false,
+        "overlay_live": false,
+        "override_count": 0,
+        "overrides": [],
+        "overlay": null
+      }
+    ],
+    "ProdsCompldOps": [
+      {
+        "step_id": "PR-1",
+        "lane": "ProdsCompldOps",
+        "label": "Bureau Loss Cost Lookup",
+        "bureau_immutable": true,
+        "overlay_live": false,
+        "override_count": 0,
+        "overrides": [],
+        "overlay": null
+      },
+      {
+        "step_id": "PR-2",
+        "lane": "ProdsCompldOps",
+        "label": "LCM (Loss Cost Multiplier)",
+        "bureau_immutable": false,
+        "overlay_live": false,
+        "override_count": 0,
+        "overrides": [],
+        "overlay": null
+      },
+      {
+        "step_id": "PR-2B",
+        "lane": "ProdsCompldOps",
+        "label": "Tier Rating Factor",
+        "bureau_immutable": false,
+        "overlay_live": true,
+        "override_count": 0,
+        "overrides": [],
+        "overlay": null
+      },
+      {
+        "step_id": "PR-2C",
+        "lane": "ProdsCompldOps",
+        "label": "Claims-Made Step Factor",
+        "bureau_immutable": true,
+        "overlay_live": false,
+        "override_count": 0,
+        "overrides": [],
+        "overlay": null
+      },
+      {
+        "step_id": "PR-3",
+        "lane": "ProdsCompldOps",
+        "label": "ILTA Assignment",
+        "bureau_immutable": true,
+        "overlay_live": false,
+        "override_count": 0,
+        "overrides": [],
+        "overlay": null
+      },
+      {
+        "step_id": "PR-4",
+        "lane": "ProdsCompldOps",
+        "label": "ILF Lookup",
+        "bureau_immutable": true,
+        "overlay_live": false,
+        "override_count": 0,
+        "overrides": [],
+        "overlay": null
+      },
+      {
+        "step_id": "PR-5",
+        "lane": "ProdsCompldOps",
+        "label": "ELP Lookup",
+        "bureau_immutable": true,
+        "overlay_live": false,
+        "override_count": 0,
+        "overrides": [],
+        "overlay": null
+      },
+      {
+        "step_id": "PR-5B",
+        "lane": "ProdsCompldOps",
+        "label": "Deductible Adjustment",
+        "bureau_immutable": false,
+        "overlay_live": false,
+        "override_count": 0,
+        "overrides": [],
+        "overlay": null
+      },
+      {
+        "step_id": "PR-6",
+        "lane": "ProdsCompldOps",
+        "label": "Base Premium Calculation",
+        "bureau_immutable": false,
+        "overlay_live": false,
+        "override_count": 0,
+        "overrides": [],
+        "overlay": null
+      }
+    ],
+    "Policy": [
+      {
+        "step_id": "PL-0",
+        "lane": "Policy",
+        "label": "Coverage Form Selection",
+        "bureau_immutable": false,
+        "overlay_live": false,
+        "override_count": 0,
+        "overrides": [],
+        "overlay": null
+      },
+      {
+        "step_id": "PL-1",
+        "lane": "Policy",
+        "label": "Subline Rating Referral",
+        "bureau_immutable": false,
+        "overlay_live": false,
+        "override_count": 0,
+        "overrides": [],
+        "overlay": null
+      },
+      {
+        "step_id": "PL-2",
+        "lane": "Policy",
+        "label": "Additional Insured Schedule (Rule 16)",
+        "bureau_immutable": false,
+        "overlay_live": false,
+        "override_count": 0,
+        "overrides": [],
+        "overlay": null
+      },
+      {
+        "step_id": "PL-99",
+        "lane": "Policy",
+        "label": "Final Adjustments (Schedule Mod + Flat Fees)",
+        "bureau_immutable": false,
+        "overlay_live": true,
+        "override_count": 0,
+        "overrides": [],
+        "overlay": null
+      }
+    ]
+  },
+  "active_deviation_ids": [],
+  "iso_rule_reference": "CLM Division Six (Rules 15, 23, 26, 28, 32, 33)",
+  "carrier_algorithm_model": {
+    "model_id": null,
+    "version_hash": null,
+    "serff_filing_ref": null,
+    "notes": null,
+    "exists": false
+  },
+  "_note": "Read mode default. Edit mode writes to carrier_algorithm_model overlay."
 }

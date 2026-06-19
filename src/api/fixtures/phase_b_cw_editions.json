@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "edition_id": "GL-CW-20270401-V01",
+    "effective_date": "2027-04-01",
+    "version": 1,
+    "load_status": "ACTIVE"
+  },
+  {
+    "edition_id": "GL-CW-20260101-V01",
+    "effective_date": "2026-01-01",
+    "version": 1,
+    "load_status": "ACTIVE"
+  },
+  {
+    "edition_id": "GL-CW-20231201-V03",
+    "effective_date": "2023-12-01",
+    "version": 3,
+    "load_status": "ACTIVE"
+  },
+  {
+    "edition_id": "GL-CW-20231201-V02",
+    "effective_date": "2023-12-01",
+    "version": 2,
+    "load_status": "ACTIVE"
+  },
+  {
+    "edition_id": "GL-CW-20231201-V01",
+    "effective_date": "2023-12-01",
+    "version": 1,
+    "load_status": "ACTIVE"
+  },
+  {
+    "edition_id": "GL-CW-20230501-V01",
+    "effective_date": "2023-05-01",
+    "version": 1,
+    "load_status": "ACTIVE"
+  },
+  {
+    "edition_id": "GL-CW-20230401-V01",
+    "effective_date": "2023-04-01",
+    "version": 1,
+    "load_status": "ACTIVE"
+  },
+  {
+    "edition_id": "GL-CW-20220901-V02",
+    "effective_date": "2022-09-01",
+    "version": 2,
+    "load_status": "ACTIVE"
+  },
+  {
+    "edition_id": "GL-CW-20210801-V01",
+    "effective_date": "2021-08-01",
+    "version": 1,
+    "load_status": "ACTIVE"
+  },
+  {
+    "edition_id": "GL-CW-20201201-V01",
+    "effective_date": "2020-12-01",
+    "version": 1,
+    "load_status": "ACTIVE"
+  }
+]

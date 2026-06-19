@@ -1,3 +1,34 @@
 [
-  { "label": "ERC 2.0 CW + Sample States", "path": "erc_sample/" }
+  {
+    "name": "Alabama",
+    "path": "C:\\Projects\\version_6_proof_of_concept\\erc_sample\\Alabama"
+  },
+  {
+    "name": "Arkansas",
+    "path": "C:\\Projects\\version_6_proof_of_concept\\erc_sample\\Arkansas"
+  },
+  {
+    "name": "Countrywide",
+    "path": "C:\\Projects\\version_6_proof_of_concept\\erc_sample\\Countrywide"
+  },
+  {
+    "name": "GL AL 20260101 V01",
+    "path": "C:\\Projects\\version_6_proof_of_concept\\erc_sample\\GL AL 20260101 V01"
+  },
+  {
+    "name": "GL AL 20260101 V02",
+    "path": "C:\\Projects\\version_6_proof_of_concept\\erc_sample\\GL AL 20260101 V02"
+  },
+  {
+    "name": "GL AL 20260101 V03",
+    "path": "C:\\Projects\\version_6_proof_of_concept\\erc_sample\\GL AL 20260101 V03"
+  },
+  {
+    "name": "GL CW 20260101 V01",
+    "path": "C:\\Projects\\version_6_proof_of_concept\\erc_sample\\GL CW 20260101 V01"
+  },
+  {
+    "name": "Indiana",
+    "path": "C:\\Projects\\version_6_proof_of_concept\\erc_sample\\Indiana"
+  }
 ]

@@ -1,0 +1,86 @@
+[
+  {
+    "table_name": "LiquorELP",
+    "factor_group": "ELP"
+  },
+  {
+    "table_name": "OwnersContractorsELP",
+    "factor_group": "ELP"
+  },
+  {
+    "table_name": "OwnersContractorsELPOverOneHundred",
+    "factor_group": "ELP"
+  },
+  {
+    "table_name": "OwnersContractorsELPOverOneMillion",
+    "factor_group": "ELP"
+  },
+  {
+    "table_name": "PremOpsELP",
+    "factor_group": "ELP"
+  },
+  {
+    "table_name": "ProdsCompldOpsELPFactor",
+    "factor_group": "ELP"
+  },
+  {
+    "table_name": "RailroadELP",
+    "factor_group": "ELP"
+  },
+  {
+    "table_name": "ILFLiquor",
+    "factor_group": "ILF"
+  },
+  {
+    "table_name": "ILFOwnersContractors",
+    "factor_group": "ILF"
+  },
+  {
+    "table_name": "ILFPremOps",
+    "factor_group": "ILF"
+  },
+  {
+    "table_name": "ILFProds",
+    "factor_group": "ILF"
+  },
+  {
+    "table_name": "ILFRailroad",
+    "factor_group": "ILF"
+  },
+  {
+    "table_name": "LiquorLiabGrade",
+    "factor_group": "grade"
+  },
+  {
+    "table_name": "LiquorHomogeneityIndex",
+    "factor_group": "homogeneity_index"
+  },
+  {
+    "table_name": "OwnersContractorsHomogeneityIndex",
+    "factor_group": "homogeneity_index"
+  },
+  {
+    "table_name": "PremOpsHomogeneityIndex",
+    "factor_group": "homogeneity_index"
+  },
+  {
+    "table_name": "ProdsCompldOpsHomogeneityIndex",
+    "factor_group": "homogeneity_index"
+  },
+  {
+    "table_name": "RailroadHomogeneityIndex",
+    "factor_group": "homogeneity_index"
+  },
+  {
+    "table_name": "MedPayFactor",
+    "factor_group": "med_pay"
+  },
+  {
+    "table_name": "ProductWithdrawalExpensesAndLiabilityIncrdLimitFactor",
+    "factor_group": "product_withdrawal"
+  },
+  {
+    "table_name": "BaseELPRR",
+    "factor_group": "railroad_base_elp"
+  }
+]

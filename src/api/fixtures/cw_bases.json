@@ -1,3 +1,62 @@
 [
-  { "cw_project_reference": "GL-2024-CW", "effective_date": "2024-07-01" }
+  {
+    "cw_project_reference": "GL CW 20270401 V01",
+    "state_edition_count": 59,
+    "earliest_effective": "2027-04-01",
+    "latest_effective": "2027-04-01"
+  },
+  {
+    "cw_project_reference": "GL CW 20260101 V01",
+    "state_edition_count": 110,
+    "earliest_effective": "2026-01-01",
+    "latest_effective": "2027-01-01"
+  },
+  {
+    "cw_project_reference": "GL CW 20231201 V03",
+    "state_edition_count": 51,
+    "earliest_effective": "2025-01-01",
+    "latest_effective": "2026-12-01"
+  },
+  {
+    "cw_project_reference": "GL CW 20231201 V02",
+    "state_edition_count": 145,
+    "earliest_effective": "2023-12-01",
+    "latest_effective": "2025-07-01"
+  },
+  {
+    "cw_project_reference": "GL CW 20231201 V01",
+    "state_edition_count": 23,
+    "earliest_effective": "2023-12-01",
+    "latest_effective": "2024-03-01"
+  },
+  {
+    "cw_project_reference": "GL CW 20230501 V01",
+    "state_edition_count": 77,
+    "earliest_effective": "2023-05-01",
+    "latest_effective": "2023-11-01"
+  },
+  {
+    "cw_project_reference": "GL CW 20230401 V01",
+    "state_edition_count": 12,
+    "earliest_effective": "2023-04-01",
+    "latest_effective": "2023-04-01"
+  },
+  {
+    "cw_project_reference": "GL CW 20220901 V02",
+    "state_edition_count": 11,
+    "earliest_effective": "2022-09-01",
+    "latest_effective": "2023-02-01"
+  },
+  {
+    "cw_project_reference": "GL CW 20210801 V01",
+    "state_edition_count": 58,
+    "earliest_effective": "2021-08-01",
+    "latest_effective": "2022-08-01"
+  },
+  {
+    "cw_project_reference": "GL CW 20201201 V01",
+    "state_edition_count": 10,
+    "earliest_effective": "2020-12-01",
+    "latest_effective": "2021-07-01"
+  }
 ]

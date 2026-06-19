@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "event_id": 1,
+    "event_type": "ACTIVATE",
+    "payload_sha256": "c27a78874ba68c142d85508de0b34fddb15ebb6d9343b302e6c86bf761fcce04",
+    "prior_event_id": null,
+    "actor_user_id": "demo_user",
+    "occurred_at": "2026-06-18T00:51:28.339063Z"
+  }
+]
