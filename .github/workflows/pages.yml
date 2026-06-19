@@ -31,6 +31,8 @@ jobs:
         run: npm run build
       - name: Copy index.html to 404.html (SPA fallback)
         run: cp dist/index.html dist/404.html
+      - name: Disable Jekyll processing
+        run: touch dist/.nojekyll
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
