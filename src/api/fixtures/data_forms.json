@@ -1,0 +1,13 @@
+{
+  "total": 8,
+  "rows": [
+    { "state_code": "FL", "form_number": "CG 00 01", "edition_date": "04/13", "form_name": "Commercial General Liability Coverage Form", "category": "PRIMARY", "is_mandatory": true, "version": 1 },
+    { "state_code": "FL", "form_number": "CG 21 06", "edition_date": "05/14", "form_name": "Exclusion - Access or Disclosure of Confidential or Personal Information", "category": "EXCLUSION", "is_mandatory": false, "version": 1 },
+    { "state_code": "FL", "form_number": "CG 21 47", "edition_date": "12/07", "form_name": "Employment-Related Practices Exclusion", "category": "EXCLUSION", "is_mandatory": false, "version": 1 },
+    { "state_code": "FL", "form_number": "CG 00 02", "edition_date": "04/13", "form_name": "Commercial General Liability Coverage Form (Claims-Made)", "category": "PRIMARY", "is_mandatory": false, "version": 1 },
+    { "state_code": "FL", "form_number": "CG 20 10", "edition_date": "04/13", "form_name": "Additional Insured - Owners, Lessees or Contractors", "category": "ADDITIONAL_INSURED", "is_mandatory": false, "version": 1 },
+    { "state_code": "TX", "form_number": "CG 00 01", "edition_date": "04/13", "form_name": "Commercial General Liability Coverage Form", "category": "PRIMARY", "is_mandatory": true, "version": 1 },
+    { "state_code": "CA", "form_number": "CG 00 01", "edition_date": "04/13", "form_name": "Commercial General Liability Coverage Form", "category": "PRIMARY", "is_mandatory": true, "version": 1 },
+    { "state_code": "NY", "form_number": "CG 00 01", "edition_date": "04/13", "form_name": "Commercial General Liability Coverage Form", "category": "PRIMARY", "is_mandatory": true, "version": 1 }
+  ]
+}

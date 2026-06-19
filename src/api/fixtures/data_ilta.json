@@ -1,0 +1,13 @@
+{
+  "total": 8,
+  "rows": [
+    { "state_code": "FL", "subline": "PremOps", "class_code": "47051", "ilta_key_col_name": "ilta_letter", "assignment_raw": "A", "assignment_typed": "A", "assignment_type": "letter", "is_na": false, "ilf_table_target": "ILT_Factor", "version": 1 },
+    { "state_code": "FL", "subline": "PremOps", "class_code": "16819", "ilta_key_col_name": "ilta_letter", "assignment_raw": "B", "assignment_typed": "B", "assignment_type": "letter", "is_na": false, "ilf_table_target": "ILT_Factor", "version": 1 },
+    { "state_code": "FL", "subline": "PremOps", "class_code": "10010", "ilta_key_col_name": "ilta_letter", "assignment_raw": "C", "assignment_typed": "C", "assignment_type": "letter", "is_na": false, "ilf_table_target": "ILT_Factor", "version": 1 },
+    { "state_code": "FL", "subline": "ProdsCompldOps", "class_code": "47051", "ilta_key_col_name": "ilta_letter", "assignment_raw": "A", "assignment_typed": "A", "assignment_type": "letter", "is_na": false, "ilf_table_target": "ILT_Factor_PCO", "version": 1 },
+    { "state_code": "FL", "subline": "PremOps", "class_code": "98884", "ilta_key_col_name": "ilta_letter", "assignment_raw": "N/A", "assignment_typed": null, "assignment_type": "letter", "is_na": true, "ilf_table_target": null, "version": 1 },
+    { "state_code": "TX", "subline": "PremOps", "class_code": "47051", "ilta_key_col_name": "ilta_letter", "assignment_raw": "A", "assignment_typed": "A", "assignment_type": "letter", "is_na": false, "ilf_table_target": "ILT_Factor", "version": 2 },
+    { "state_code": "CA", "subline": "PremOps", "class_code": "47051", "ilta_key_col_name": "ilta_letter", "assignment_raw": "A", "assignment_typed": "A", "assignment_type": "letter", "is_na": false, "ilf_table_target": "ILT_Factor", "version": 1 },
+    { "state_code": "NY", "subline": "PremOps", "class_code": "47051", "ilta_key_col_name": "ilta_letter", "assignment_raw": "A", "assignment_typed": "A", "assignment_type": "letter", "is_na": false, "ilf_table_target": "ILT_Factor", "version": 1 }
+  ]
+}

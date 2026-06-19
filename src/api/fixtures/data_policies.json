@@ -1,0 +1,8 @@
+{
+  "total": 3,
+  "rows": [
+    { "policy_id": "POL-2026-000412", "quote_id": "Q-2026-001847", "carrier_id": "ACME", "state_code": "FL", "bound_edition_id": "GL-FL-20260501-V01", "bound_premium": 18742.50, "policy_effective_date": "2026-07-01", "policy_expiration_date": "2027-07-01", "status": "BOUND", "bound_at": "2026-06-15T14:38:52Z" },
+    { "policy_id": "POL-2026-000411", "quote_id": "Q-2026-001841", "carrier_id": "ATLAS-GL", "state_code": "FL", "bound_edition_id": "GL-FL-20260501-V01", "bound_premium": 24108.00, "policy_effective_date": "2026-07-01", "policy_expiration_date": "2027-07-01", "status": "BOUND", "bound_at": "2026-06-14T09:51:14Z" },
+    { "policy_id": "POL-2026-000408", "quote_id": "Q-2026-001835", "carrier_id": "ACME", "state_code": "NY", "bound_edition_id": "GL-NY-20260201-V01", "bound_premium": 32475.25, "policy_effective_date": "2026-07-01", "policy_expiration_date": "2027-07-01", "status": "BOUND", "bound_at": "2026-06-12T11:02:33Z" }
+  ]
+}

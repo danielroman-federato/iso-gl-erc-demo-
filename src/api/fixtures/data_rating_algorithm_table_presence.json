@@ -1,0 +1,11 @@
+{
+  "total": 6,
+  "rows": [
+    { "state_code": "FL", "edition_id": "GL-FL-20260501-V01", "lane": "PremOps", "table_name": "PremOps_LossCost", "row_count": 1247, "present": true },
+    { "state_code": "FL", "edition_id": "GL-FL-20260501-V01", "lane": "PremOps", "table_name": "ILT_Factor", "row_count": 384, "present": true },
+    { "state_code": "FL", "edition_id": "GL-FL-20260501-V01", "lane": "PremOps", "table_name": "ELP_Factor", "row_count": 96, "present": true },
+    { "state_code": "FL", "edition_id": "GL-FL-20260501-V01", "lane": "ProdsCompldOps", "table_name": "ProdsCompldOps_LossCost", "row_count": 1247, "present": true },
+    { "state_code": "FL", "edition_id": "GL-FL-20260501-V01", "lane": "Policy", "table_name": "ScheduleRating_Bounds", "row_count": 6, "present": true },
+    { "state_code": "FL", "edition_id": "GL-FL-20260501-V01", "lane": "Policy", "table_name": "Territory_Definition", "row_count": 67, "present": true }
+  ]
+}

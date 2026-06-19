@@ -1,0 +1,17 @@
+{
+  "total": 12,
+  "rows": [
+    { "state_code": "FL", "table_name": "PremOps_LossCost", "subline": "PremOps", "loss_cost_variant": "BASE", "territory_value": "001", "class_code": "47051", "rate_field_name": "loss_cost", "rate": 0.387, "is_current_version": true, "version": 1 },
+    { "state_code": "FL", "table_name": "PremOps_LossCost", "subline": "PremOps", "loss_cost_variant": "BASE", "territory_value": "002", "class_code": "47051", "rate_field_name": "loss_cost", "rate": 0.412, "is_current_version": true, "version": 1 },
+    { "state_code": "FL", "table_name": "PremOps_LossCost", "subline": "PremOps", "loss_cost_variant": "BASE", "territory_value": "001", "class_code": "16819", "rate_field_name": "loss_cost", "rate": 1.234, "is_current_version": true, "version": 1 },
+    { "state_code": "FL", "table_name": "PremOps_LossCost", "subline": "PremOps", "loss_cost_variant": "BASE", "territory_value": "001", "class_code": "10010", "rate_field_name": "loss_cost", "rate": 2.198, "is_current_version": true, "version": 1 },
+    { "state_code": "FL", "table_name": "ProdsCompldOps_LossCost", "subline": "ProdsCompldOps", "loss_cost_variant": "BASE", "territory_value": "001", "class_code": "47051", "rate_field_name": "loss_cost", "rate": 0.073, "is_current_version": true, "version": 1 },
+    { "state_code": "FL", "table_name": "ProdsCompldOps_LossCost", "subline": "ProdsCompldOps", "loss_cost_variant": "BASE", "territory_value": "001", "class_code": "16819", "rate_field_name": "loss_cost", "rate": 0.231, "is_current_version": true, "version": 1 },
+    { "state_code": "TX", "table_name": "PremOps_LossCost", "subline": "PremOps", "loss_cost_variant": "BASE", "territory_value": "100", "class_code": "47051", "rate_field_name": "loss_cost", "rate": 0.341, "is_current_version": true, "version": 2 },
+    { "state_code": "TX", "table_name": "PremOps_LossCost", "subline": "PremOps", "loss_cost_variant": "BASE", "territory_value": "100", "class_code": "16819", "rate_field_name": "loss_cost", "rate": 1.087, "is_current_version": true, "version": 2 },
+    { "state_code": "CA", "table_name": "PremOps_LossCost", "subline": "PremOps", "loss_cost_variant": "BASE", "territory_value": "001", "class_code": "47051", "rate_field_name": "loss_cost", "rate": 0.498, "is_current_version": true, "version": 1 },
+    { "state_code": "CA", "table_name": "PremOps_LossCost", "subline": "PremOps", "loss_cost_variant": "BASE", "territory_value": "002", "class_code": "10010", "rate_field_name": "loss_cost", "rate": 2.873, "is_current_version": true, "version": 1 },
+    { "state_code": "NY", "table_name": "PremOps_LossCost", "subline": "PremOps", "loss_cost_variant": "BASE", "territory_value": "010", "class_code": "47051", "rate_field_name": "loss_cost", "rate": 0.522, "is_current_version": true, "version": 1 },
+    { "state_code": "NY", "table_name": "PremOps_LossCost", "subline": "PremOps", "loss_cost_variant": "BASE", "territory_value": "010", "class_code": "16819", "rate_field_name": "loss_cost", "rate": 1.456, "is_current_version": true, "version": 1 }
+  ]
+}

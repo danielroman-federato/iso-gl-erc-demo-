@@ -1,0 +1,15 @@
+{
+  "total": 10,
+  "rows": [
+    { "state_code": "FL", "zip_code": "33101", "territory_display": "Miami-Dade Urban", "territory_data_value": "001" },
+    { "state_code": "FL", "zip_code": "33401", "territory_display": "West Palm Beach", "territory_data_value": "002" },
+    { "state_code": "FL", "zip_code": "32801", "territory_display": "Orlando Metro", "territory_data_value": "003" },
+    { "state_code": "FL", "zip_code": "33602", "territory_display": "Tampa Bay", "territory_data_value": "002" },
+    { "state_code": "FL", "zip_code": "32202", "territory_display": "Jacksonville", "territory_data_value": "004" },
+    { "state_code": "TX", "zip_code": "77002", "territory_display": "Houston Inner", "territory_data_value": "100" },
+    { "state_code": "TX", "zip_code": "75201", "territory_display": "Dallas Downtown", "territory_data_value": "101" },
+    { "state_code": "TX", "zip_code": "78701", "territory_display": "Austin Central", "territory_data_value": "102" },
+    { "state_code": "CA", "zip_code": "90001", "territory_display": "LA South Central", "territory_data_value": "001" },
+    { "state_code": "NY", "zip_code": "10001", "territory_display": "Manhattan Midtown", "territory_data_value": "010" }
+  ]
+}

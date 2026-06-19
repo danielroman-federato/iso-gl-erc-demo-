@@ -1258,7 +1258,29 @@ const STATE_NAMES = {
   WA:"Washington",WV:"West Virginia",WI:"Wisconsin",WY:"Wyoming",PR:"Puerto Rico",
 };
 
+// In the public demo build (VITE_MOCK=1) the react-simple-maps components
+// don't ship a React-19-compatible release; we render a static panel instead.
+const IS_DEMO_MAP = import.meta.env.VITE_MOCK === "1" || import.meta.env.VITE_MOCK === "true";
+
+function MapViewTabDemoPlaceholder() {
+  return (
+    <div className="bg-amber-50 border border-amber-200 rounded p-4 text-sm text-amber-900 max-w-2xl">
+      <div className="font-semibold mb-1">Map view not available in demo</div>
+      <div className="text-xs">
+        The geographic ERC adoption map requires <code className="font-mono">react-simple-maps</code>,
+        which doesn't yet ship a React 19-compatible release. In the working prototype this tab renders
+        a choropleth of every state's bureau edition vs. carrier adoption status.
+      </div>
+    </div>
+  );
+}
+
 function MapViewTab() {
+  if (IS_DEMO_MAP) return <MapViewTabDemoPlaceholder />;
+  return <MapViewTabLive />;
+}
+
+function MapViewTabLive() {
   const [hierarchy, setHierarchy] = useState(null);
   const [loading, setLoading] = useState(true);
   const [selectedCW, setSelectedCW] = useState("");
@@ -1931,7 +1953,9 @@ const TABS = [
   { id: "editions", label: "Editions" },
   { id: "erc-hierarchy", label: "ERC Hierarchy" },
   { id: "erc-citations", label: "ERC Citations" },
-  { id: "map-view", label: "Map View" },
+  // Map View requires react-simple-maps which doesn't ship a React-19-compatible
+  // release; hidden in the demo build (VITE_MOCK=1) — see MapViewTab.
+  ...(IS_DEMO_MAP ? [] : [{ id: "map-view", label: "Map View" }]),
   { id: "quotes", label: "Quotes" },
   { id: "policies", label: "Policies" },
   { id: "rating-algorithms", label: "Rating Algorithms" },

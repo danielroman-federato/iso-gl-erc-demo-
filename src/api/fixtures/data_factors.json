@@ -1,0 +1,15 @@
+{
+  "total": 10,
+  "rows": [
+    { "state_code": "FL", "table_name": "ILT_Factor", "factor_group": "ILT", "subline": "PremOps", "ilta_value": "A", "limit_key_1_value": "1000000", "limit_key_2_value": "2000000", "class_code": null, "value_col_name": "increased_limit_factor", "value": 1.40, "is_na": false, "version": 1 },
+    { "state_code": "FL", "table_name": "ILT_Factor", "factor_group": "ILT", "subline": "PremOps", "ilta_value": "A", "limit_key_1_value": "1000000", "limit_key_2_value": "3000000", "class_code": null, "value_col_name": "increased_limit_factor", "value": 1.58, "is_na": false, "version": 1 },
+    { "state_code": "FL", "table_name": "ILT_Factor", "factor_group": "ILT", "subline": "PremOps", "ilta_value": "B", "limit_key_1_value": "1000000", "limit_key_2_value": "2000000", "class_code": null, "value_col_name": "increased_limit_factor", "value": 1.36, "is_na": false, "version": 1 },
+    { "state_code": "FL", "table_name": "ELP_Factor", "factor_group": "ELP", "subline": "PremOps", "ilta_value": null, "limit_key_1_value": "1000000", "limit_key_2_value": null, "class_code": null, "value_col_name": "elp_premium", "value": 23.0, "is_na": false, "version": 1 },
+    { "state_code": "FL", "table_name": "ELP_Factor", "factor_group": "ELP", "subline": "PremOps", "ilta_value": null, "limit_key_1_value": "2000000", "limit_key_2_value": null, "class_code": null, "value_col_name": "elp_premium", "value": 31.0, "is_na": false, "version": 1 },
+    { "state_code": "FL", "table_name": "Deductible_Factor", "factor_group": "Deductible", "subline": "PremOps", "ilta_value": null, "limit_key_1_value": "1000", "limit_key_2_value": null, "class_code": null, "value_col_name": "deductible_credit", "value": 0.95, "is_na": false, "version": 1 },
+    { "state_code": "FL", "table_name": "Deductible_Factor", "factor_group": "Deductible", "subline": "PremOps", "ilta_value": null, "limit_key_1_value": "2500", "limit_key_2_value": null, "class_code": null, "value_col_name": "deductible_credit", "value": 0.90, "is_na": false, "version": 1 },
+    { "state_code": "TX", "table_name": "ILT_Factor", "factor_group": "ILT", "subline": "PremOps", "ilta_value": "A", "limit_key_1_value": "1000000", "limit_key_2_value": "2000000", "class_code": null, "value_col_name": "increased_limit_factor", "value": 1.42, "is_na": false, "version": 2 },
+    { "state_code": "CA", "table_name": "ILT_Factor", "factor_group": "ILT", "subline": "PremOps", "ilta_value": "A", "limit_key_1_value": "1000000", "limit_key_2_value": "2000000", "class_code": null, "value_col_name": "increased_limit_factor", "value": 1.45, "is_na": false, "version": 1 },
+    { "state_code": "NY", "table_name": "ILT_Factor", "factor_group": "ILT", "subline": "PremOps", "ilta_value": "A", "limit_key_1_value": "1000000", "limit_key_2_value": "2000000", "class_code": null, "value_col_name": "increased_limit_factor", "value": 1.48, "is_na": false, "version": 1 }
+  ]
+}

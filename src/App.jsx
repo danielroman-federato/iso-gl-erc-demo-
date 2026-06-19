@@ -9,6 +9,11 @@ import Screen6_DataBrowser from "./screens/Screen6_DataBrowser";
 import Screen7_CircularAdoption from "./screens/Screen7_CircularAdoption";
 import Screen8_ActuarialDag from "./screens/Screen8_ActuarialDag";
 import Screen0_Carriers from "./screens/Screen0_Carriers";
+import MockScreen from "./screens/MockScreen";
+
+// In the public demo build (VITE_MOCK=1) the quote/rate/bind flow requires a
+// live backend, so Screens 3/4/5 render static screenshots instead.
+const IS_DEMO = import.meta.env.VITE_MOCK === "1" || import.meta.env.VITE_MOCK === "true";
 
 // ── Inline SVG icons ────────────────────────────────────────────────────────
 function IconOps() {
@@ -371,9 +376,15 @@ export default function App() {
                 )}
                 {active === 1 && <Screen1_OpsDashboard />}
                 {active === 2 && <Screen2_DeviationManager />}
-                {active === 3 && <Screen3_QuoteEntry onRated={handleRated} />}
-                {active === 4 && <Screen4_RatingWorkbench quoteId={quoteId} onBound={handleBound} />}
-                {active === 5 && <Screen5_PolicyWorkspace bindResult={bindResult} />}
+                {active === 3 && (IS_DEMO
+                  ? <MockScreen id="screen3" title="Quote Entry" subtitle="Risk and class data entry. In the working prototype this drives a live rating call." caption="Screen 3 — drop screen3.png at frontend/public/mocks/ to replace this placeholder." />
+                  : <Screen3_QuoteEntry onRated={handleRated} />)}
+                {active === 4 && (IS_DEMO
+                  ? <MockScreen id="screen4" title="Rating Workbench" subtitle="Live rating with diff banner and premium breakout. Edits trigger a rerate; the diff strip shows what changed." caption="Screen 4 — drop screen4.png at frontend/public/mocks/ to replace this placeholder." />
+                  : <Screen4_RatingWorkbench quoteId={quoteId} onBound={handleBound} />)}
+                {active === 5 && (IS_DEMO
+                  ? <MockScreen id="screen5" title="Policy Workspace" subtitle="Bound policy view with audit package, schedule of forms, and worksheet PDF." caption="Screen 5 — drop screen5.png at frontend/public/mocks/ to replace this placeholder." />
+                  : <Screen5_PolicyWorkspace bindResult={bindResult} />)}
                 {active === 6 && <Screen6_DataBrowser />}
                 {active === 7 && <Screen7_CircularAdoption />}
                 {active === 8 && <Screen8_ActuarialDag />}

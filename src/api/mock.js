@@ -26,7 +26,30 @@ const routes = [
   ["GET",   /^\/api\/carriers$/,                                   "carriers"],
   ["GET",   /^\/api\/carriers\/([^/]+)$/,                          ({ match }) => {
     const all = fixture("carriers") || [];
-    return all.find((c) => c.carrier_id === decodeURIComponent(match[1])) || all[0] || {};
+    const carrier = all.find((c) => c.carrier_id === decodeURIComponent(match[1])) || all[0] || {};
+    // Screen 0 destructures { carrier, implementation, cw_groups, doi, summary }
+    // — wrap the flat carrier row in the expected nested shape.
+    return {
+      carrier: { carrier_id: carrier.carrier_id, carrier_name: carrier.carrier_name },
+      implementation: {
+        impl_id: carrier.impl_id || `IMPL-${carrier.carrier_id}-GL`,
+        lob: carrier.lob || "GL",
+        status: carrier.impl_status || "ACTIVE",
+        onboarding_status: carrier.onboarding_status || "retrofit",
+        naic_code: carrier.naic_code || null,
+        primary_state: carrier.primary_state || null,
+        activated_at: carrier.activated_at || null,
+      },
+      cw_groups: [],
+      doi: [],
+      summary: {
+        cw_count: carrier.cw_count ?? 0,
+        state_count: carrier.state_count ?? 0,
+        active_states: 0,
+        intent_states: 0,
+        doi_missing: 0,
+      },
+    };
   }],
   ["GET",   /^\/api\/carriers\/_wizard\/cw-bases/,                 "cw_bases"],
   ["GET",   /^\/api\/carriers\/_wizard\/states-for-cw/,            "states_for_cw"],
