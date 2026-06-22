@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from "react";
-import { carriers } from "../api/client";
+import { carriers, dataBrowser } from "../api/client";
 import { Panel } from "../components/Panel";
 import { Badge } from "../components/Badge";
 
@@ -123,6 +123,12 @@ function Wizard({ initialCarrier, onCancel, onComplete }) {
   const [pickingCwId, setPickingCwId] = useState("");
   // Map of cw_project_reference -> states available under that CW (cached)
   const [statesByCw, setStatesByCw] = useState({});
+  // RS-4.12 Phase 2 — Advanced (filing-track split) expander state.
+  // `editionsByState` caches all GL editions per state code so the dropdown
+  // doesn't refetch each open. `expandedScopes` is the set of edition_ids
+  // currently showing the Advanced panel (one entry per activated state row).
+  const [editionsByState, setEditionsByState] = useState({});
+  const [expandedScopes, setExpandedScopes] = useState(() => new Set());
   const [submitting, setSubmitting] = useState(false);
   const [err, setErr] = useState(null);
 
@@ -185,6 +191,23 @@ function Wizard({ initialCarrier, onCancel, onComplete }) {
     ));
   }
 
+  // RS-4.12 Phase 2 — open/close the Advanced (filing-track split) panel for
+  // a given activated state row, lazily fetching the candidate-editions list
+  // for that state on first open.
+  function toggleAdvanced(edition_id, state_code) {
+    setExpandedScopes(prev => {
+      const next = new Set(prev);
+      if (next.has(edition_id)) next.delete(edition_id);
+      else next.add(edition_id);
+      return next;
+    });
+    if (!editionsByState[state_code]) {
+      dataBrowser.editions(state_code).then(eds => {
+        setEditionsByState(prev => ({ ...prev, [state_code]: eds || [] }));
+      }).catch(() => {});
+    }
+  }
+
   function updateStateInGroup(cw_ref, edition_id, patch) {
     setCwGroups(prev => prev.map(g =>
       g.cw_project_reference === cw_ref
@@ -221,6 +244,12 @@ function Wizard({ initialCarrier, onCancel, onComplete }) {
             doi_license_ref: s.doi_license_ref || null,
             doi_license_status: s.doi_license_ref ? "admitted" : "non-admitted",
             auto_track_edition: !!s.auto_track_edition,
+            // RS-4.12 Phase 2 — null when carrier accepted the default;
+            // backend treats null as "inherit from edition_id" so single-
+            // edition carriers behave exactly as before this field existed.
+            rate_edition_override_id: s.rate_edition_override_id || null,
+            forms_edition_override_id: s.forms_edition_override_id || null,
+            rules_edition_override_id: s.rules_edition_override_id || null,
           })),
         })),
       });
@@ -500,6 +529,68 @@ function Wizard({ initialCarrier, onCancel, onComplete }) {
                                   auto-track
                                 </label>
                               </div>
+
+                              {/* RS-4.12 Phase 2 — Advanced filing-track expander.
+                                  Hidden by default; opens to three axis pickers
+                                  pre-filled with the row's default edition. */}
+                              {(() => {
+                                const isOpen = expandedScopes.has(s.edition_id);
+                                const anyOverride = !!(s.rate_edition_override_id || s.forms_edition_override_id || s.rules_edition_override_id);
+                                const candidates = editionsByState[s.state_code] || [];
+                                return (
+                                  <div className="mt-1.5">
+                                    <button
+                                      type="button"
+                                      onClick={() => toggleAdvanced(s.edition_id, s.state_code)}
+                                      className="inline-flex items-center gap-1 text-[10px] text-purple-700 hover:text-purple-900"
+                                    >
+                                      <span>{isOpen ? "▾" : "▸"}</span>
+                                      <span>Advanced: declare filing-track split</span>
+                                      {anyOverride && (
+                                        <span className="ml-1 px-1 py-0.5 rounded bg-purple-100 border border-purple-300 text-purple-800 text-[9px] font-semibold uppercase tracking-wide">
+                                          Split
+                                        </span>
+                                      )}
+                                    </button>
+
+                                    {isOpen && (
+                                      <div className="mt-1.5 bg-purple-50 border border-purple-200 rounded p-2 space-y-1.5">
+                                        <p className="text-[10px] text-purple-900 leading-snug">
+                                          State DOIs approve rate, forms, and rules as independent SERFF filings. Override an axis only when the approved cycle dates diverge. Leave blank to inherit the default.
+                                        </p>
+                                        {[
+                                          ["rate_edition_override_id", "Rate"],
+                                          ["forms_edition_override_id", "Forms"],
+                                          ["rules_edition_override_id", "Rules"],
+                                        ].map(([field, label]) => (
+                                          <div key={field} className="flex items-center gap-2">
+                                            <label className="text-[10px] text-purple-900 w-12 shrink-0 font-semibold">{label}</label>
+                                            <select
+                                              value={s[field] || ""}
+                                              onChange={e => updateStateInGroup(g.cw_project_reference, s.edition_id, { [field]: e.target.value || null })}
+                                              className="flex-1 bg-white border border-gray-300 rounded px-1.5 py-0.5 text-[11px] font-mono"
+                                            >
+                                              <option value="">Inherit default ({s.edition_id})</option>
+                                              {candidates
+                                                .filter(c => c.edition_id !== s.edition_id)
+                                                .map(c => (
+                                                  <option key={c.edition_id} value={c.edition_id}>
+                                                    {c.edition_id} · eff {c.effective_date}
+                                                  </option>
+                                                ))}
+                                            </select>
+                                          </div>
+                                        ))}
+                                        {candidates.length === 0 && (
+                                          <div className="text-[10px] text-purple-700 italic">
+                                            Loading candidate editions for {s.state_code}…
+                                          </div>
+                                        )}
+                                      </div>
+                                    )}
+                                  </div>
+                                );
+                              })()}
                             </div>
                           ))}
                           {activatedHere.length === 0 && (
@@ -600,6 +691,129 @@ function Wizard({ initialCarrier, onCancel, onComplete }) {
   );
 }
 
+// ── RS-4.12 Phase 2 — Filing-track edition override editor ────────────────────
+
+function FilingTrackBadge({ stateRow }) {
+  // Compact at-a-glance indicator: "—" when no split, color chip when active.
+  const split = stateRow.rate_edition_override_id
+    || stateRow.forms_edition_override_id
+    || stateRow.rules_edition_override_id;
+  if (!split) return <span className="text-gray-300 font-mono text-[10px]">single</span>;
+  return (
+    <span className="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-purple-50 border border-purple-200 text-purple-800 text-[10px] font-semibold uppercase tracking-wide">
+      Split
+    </span>
+  );
+}
+
+function FilingTrackEditor({ carrierId, stateCode, onClose, onSaved }) {
+  const [data, setData] = useState(null);
+  const [draft, setDraft] = useState({ rate: "", forms: "", rules: "" });
+  const [saving, setSaving] = useState(false);
+  const [err, setErr] = useState(null);
+
+  useEffect(() => {
+    carriers.filingTrackOverrides(carrierId, stateCode)
+      .then(d => {
+        setData(d);
+        setDraft({
+          rate: d.rate_edition_override_id || "",
+          forms: d.forms_edition_override_id || "",
+          rules: d.rules_edition_override_id || "",
+        });
+      })
+      .catch(e => setErr(e.message));
+  }, [carrierId, stateCode]);
+
+  async function save() {
+    if (!data) return;
+    setSaving(true);
+    setErr(null);
+    try {
+      const sentinel = "__CLEAR__";
+      const payload = {
+        rate_edition_override_id: draft.rate ? draft.rate : sentinel,
+        forms_edition_override_id: draft.forms ? draft.forms : sentinel,
+        rules_edition_override_id: draft.rules ? draft.rules : sentinel,
+        actor: "ui_filing_track_editor",
+      };
+      await carriers.setFilingTrackOverrides(carrierId, stateCode, payload);
+      onSaved?.();
+      onClose();
+    } catch (e) {
+      setErr(e.message);
+    } finally {
+      setSaving(false);
+    }
+  }
+
+  return (
+    <div className="fixed inset-0 bg-black/40 flex items-center justify-center z-50" onClick={onClose}>
+      <div className="bg-white rounded-lg shadow-xl max-w-xl w-full mx-4 p-5" onClick={e => e.stopPropagation()}>
+        <div className="flex items-center gap-2 mb-3">
+          <div className="w-2 h-2 rounded-full bg-purple-500" />
+          <h3 className="text-base font-semibold text-gray-900">
+            Filing-track editions — {carrierId} / {stateCode}
+          </h3>
+        </div>
+        <p className="text-xs text-gray-500 mb-4">
+          State DOIs approve rate, forms, and rules as independent SERFF filings.
+          Override an axis when the approved cycle dates diverge. Leave blank to inherit the default edition.
+        </p>
+
+        {!data && !err && <div className="text-gray-400 text-sm">Loading…</div>}
+        {err && <div className="text-red-600 text-xs bg-red-50 border border-red-200 rounded px-3 py-2 mb-3">{err}</div>}
+
+        {data && (
+          <div className="space-y-3">
+            <div className="text-xs text-gray-600 bg-gray-50 border border-gray-200 rounded px-3 py-2">
+              <span className="text-gray-500">Default edition: </span>
+              <span className="font-mono text-gray-800">{data.default_edition_id}</span>
+            </div>
+
+            {[
+              ["rate", "Rate edition", "Loss-cost lookups, LCM, tier factors, ILT/ELP factors"],
+              ["forms", "Forms edition", "Form attachment, condition evaluation, form fields"],
+              ["rules", "Rules edition", "Coverage form selection, Rule 16 AIs, Rule 2 referrals"],
+            ].map(([key, label, hint]) => (
+              <div key={key}>
+                <label className="block text-[10px] uppercase tracking-wide text-gray-500 mb-0.5">
+                  {label} <span className="text-gray-400 normal-case font-normal lowercase">— {hint}</span>
+                </label>
+                <select
+                  value={draft[key]}
+                  onChange={e => setDraft({ ...draft, [key]: e.target.value })}
+                  className="w-full bg-white border border-gray-300 rounded px-2 py-1 text-sm font-mono"
+                >
+                  <option value="">Inherit default ({data.default_edition_id})</option>
+                  {data.candidate_editions
+                    .filter(c => c.edition_id !== data.default_edition_id)
+                    .map(c => (
+                      <option key={c.edition_id} value={c.edition_id}>
+                        {c.edition_id} · eff {c.effective_date} · v{c.version}
+                      </option>
+                    ))}
+                </select>
+              </div>
+            ))}
+          </div>
+        )}
+
+        <div className="flex items-center justify-end gap-2 mt-5">
+          <button onClick={onClose} disabled={saving}
+            className="px-3 py-1.5 rounded border border-gray-300 text-gray-700 text-sm hover:bg-gray-50 disabled:opacity-50">
+            Cancel
+          </button>
+          <button onClick={save} disabled={saving || !data}
+            className="px-3 py-1.5 rounded bg-purple-600 hover:bg-purple-700 text-white text-sm font-semibold disabled:opacity-50">
+            {saving ? "Saving…" : "Save overrides"}
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 // ── Carrier Implementation Dashboard ─────────────────────────────────────────
 
 function Dashboard({ carrierId, onBack, onRefresh }) {
@@ -674,7 +888,32 @@ function Dashboard({ carrierId, onBack, onRefresh }) {
           <p className="text-xs text-gray-400 italic">No CW subscriptions yet. Use the wizard to onboard.</p>
         </Panel>
       ) : cw_groups.map(g => (
-        <Panel key={g.sub_id} title={g.cw_project_reference}>
+        <PanelWithFilingTrackEditor key={g.sub_id} group={g} carrierId={carrier.carrier_id} onSaved={() => onRefresh?.()} />
+      ))}
+    </div>
+  );
+}
+
+function PanelWithFilingTrackEditor({ group: g, carrierId, onSaved }) {
+  const [editingState, setEditingState] = useState(null);
+  return (
+    <>
+      {editingState && (
+        <FilingTrackEditor
+          carrierId={carrierId}
+          stateCode={editingState}
+          onClose={() => setEditingState(null)}
+          onSaved={onSaved}
+        />
+      )}
+      <PanelInner g={g} onEditFilingTracks={setEditingState} />
+    </>
+  );
+}
+
+function PanelInner({ g, onEditFilingTracks }) {
+  return (
+        <Panel title={g.cw_project_reference}>
           <div className="flex items-center gap-2 text-[11px] text-gray-500 mb-2">
             <span>Status: <span className="text-gray-800 font-semibold">{g.status}</span></span>
             {g.auto_roll_forward ? <Badge label="auto-roll-forward" variant="INFO" /> : null}
@@ -689,6 +928,8 @@ function Dashboard({ carrierId, onBack, onRefresh }) {
                 <th className="py-1 pr-3 font-semibold">Effective</th>
                 <th className="py-1 pr-3 font-semibold">DOI License</th>
                 <th className="py-1 pr-3 font-semibold">Auto-track</th>
+                <th className="py-1 pr-3 font-semibold">Filing Tracks</th>
+                <th className="py-1 pr-3 font-semibold"></th>
                 <th className="py-1 font-semibold">Status</th>
               </tr>
             </thead>
@@ -702,6 +943,15 @@ function Dashboard({ carrierId, onBack, onRefresh }) {
                     <td className="py-1.5 pr-3 text-gray-500">{s.effective_date || "—"}</td>
                     <td className="py-1.5 pr-3 font-mono text-gray-700">{s.doi_license_ref || <span className="text-amber-600">none</span>}</td>
                     <td className="py-1.5 pr-3">{s.auto_track_edition ? "✓" : ""}</td>
+                    <td className="py-1.5 pr-3"><FilingTrackBadge stateRow={s} /></td>
+                    <td className="py-1.5 pr-3">
+                      <button
+                        onClick={() => onEditFilingTracks(s.state_code)}
+                        className="text-[10px] text-purple-700 hover:text-purple-900 underline"
+                      >
+                        edit
+                      </button>
+                    </td>
                     <td className="py-1.5"><Badge label={s.status} variant={b.variant} /></td>
                   </tr>
                 );
@@ -709,8 +959,6 @@ function Dashboard({ carrierId, onBack, onRefresh }) {
             </tbody>
           </table>
         </Panel>
-      ))}
-    </div>
   );
 }
 
@@ -722,6 +970,10 @@ export default function Screen0_Carriers({ initialCarrierId, onCarrierActivated,
   const [retrofitting, setRetrofitting] = useState(null);
   const [refreshKey, setRefreshKey] = useState(0);
   const [toast, setToast] = useState(null);
+  // Sticky banner of any ISO Permission gaps surfaced at activate time.
+  // Persists across the post-wizard transition to the dashboard so the user
+  // sees what to fix next.
+  const [isoWarnings, setIsoWarnings] = useState([]);
 
   // If parent passed an initialCarrierId (from the header switcher), jump
   // straight to that carrier's dashboard. Clearing the prop afterwards lets
@@ -740,7 +992,16 @@ export default function Screen0_Carriers({ initialCarrierId, onCarrierActivated,
   }
 
   function handleWizardComplete(result) {
-    showToast(`Activated ${result.carrier_id} (${result.state_count} states)`);
+    const warnings = Array.isArray(result.warnings) ? result.warnings : [];
+    if (warnings.length) {
+      showToast(
+        `Activated ${result.carrier_id} — ${warnings.length} ISO Permission gap${warnings.length === 1 ? "" : "s"}`,
+        false,
+      );
+    } else {
+      showToast(`Activated ${result.carrier_id} (${result.state_count} states)`);
+    }
+    setIsoWarnings(warnings);
     setMode("dashboard");
     setSelectedCarrier(result.carrier_id);
     setRefreshKey(k => k + 1);
@@ -786,10 +1047,47 @@ export default function Screen0_Carriers({ initialCarrierId, onCarrierActivated,
       )}
 
       {mode === "dashboard" && selectedCarrier && (
-        <Dashboard
-          carrierId={selectedCarrier}
-          onBack={() => { setMode("list"); setRefreshKey(k => k + 1); }}
-        />
+        <>
+          {isoWarnings.length > 0 && (
+            <div
+              className="mb-4 rounded-lg border px-4 py-3"
+              style={{ borderColor: "#F0B429", backgroundColor: "#FFFBEA" }}
+            >
+              <div className="flex items-start justify-between gap-3">
+                <div>
+                  <div className="text-sm font-semibold" style={{ color: "#7C4A03" }}>
+                    ISO Permission gaps detected
+                  </div>
+                  <div className="text-xs mt-0.5" style={{ color: "#7C4A03" }}>
+                    The carrier has DOI license in {isoWarnings.filter(w => w.state_code).length} state(s)
+                    where ISO Permissions don't yet cover GL. Quoting in those states will fail until
+                    permissions are updated via the <strong>ISO Permissions</strong> screen (left nav).
+                  </div>
+                  <ul className="mt-2 space-y-1">
+                    {isoWarnings.map((w, i) => (
+                      <li key={i} className="text-xs font-mono" style={{ color: "#7C4A03" }}>
+                        {w.state_code
+                          ? `${w.state_code} — missing: ${(w.missing || []).join(", ")}`
+                          : w.message}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                <button
+                  onClick={() => setIsoWarnings([])}
+                  className="text-xs underline shrink-0"
+                  style={{ color: "#7C4A03" }}
+                >
+                  Dismiss
+                </button>
+              </div>
+            </div>
+          )}
+          <Dashboard
+            carrierId={selectedCarrier}
+            onBack={() => { setMode("list"); setRefreshKey(k => k + 1); }}
+          />
+        </>
       )}
     </div>
   );

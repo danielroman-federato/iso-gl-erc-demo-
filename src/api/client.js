@@ -300,6 +300,26 @@ export const carriers = {
     api("/api/carriers/activate", { method: "POST", body: JSON.stringify(payload) }),
   events: (carrier_id, limit = 50) =>
     api(`/api/carriers/${encodeURIComponent(carrier_id)}/events?limit=${limit}`),
+  // RS-4.12 Phase 2 — per-(carrier × state) filing-track edition overrides.
+  filingTrackOverrides: (carrier_id, state_code) =>
+    api(`/api/carriers/${encodeURIComponent(carrier_id)}/states/${encodeURIComponent(state_code)}/filing-track-overrides`),
+  setFilingTrackOverrides: (carrier_id, state_code, payload) =>
+    api(`/api/carriers/${encodeURIComponent(carrier_id)}/states/${encodeURIComponent(state_code)}/filing-track-overrides`, {
+      method: "PATCH",
+      body: JSON.stringify(payload),
+    }),
+};
+
+export const isoPermissions = {
+  get: (carrier_id) =>
+    api(`/api/iso-permissions/${encodeURIComponent(carrier_id)}`),
+  save: (carrier_id, payload) =>
+    api(`/api/iso-permissions/${encodeURIComponent(carrier_id)}`, {
+      method: "PUT",
+      body: JSON.stringify(payload),
+    }),
+  downloadAgreementUrl: (carrier_id) =>
+    `${BASE}/api/iso-permissions/${encodeURIComponent(carrier_id)}/agreement`,
 };
 
 export const phaseA = {

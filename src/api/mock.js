@@ -139,7 +139,139 @@ const routes = [
   ["GET",   /^\/api\/data\/erc-hierarchy$/,                        "data_erc_hierarchy"],
   ["GET",   /^\/api\/data\/validation-results/,                    "data_validation_results"],
   ["GET",   /^\/api\/data\/rating-algorithm\/table-presence/,      "data_rating_algorithm_table_presence"],
+
+  // ── ISO Permissions ────────────────────────────────────────────────────
+  // Per-carrier matrix is 2,268 cells. Synthesizing the payload in-handler
+  // beats shipping a 2k-line static fixture. State (per-carrier toggles)
+  // persists for the lifetime of the page in `isoPermState`.
+  ["GET",   /^\/api\/iso-permissions\/([^/]+)$/,                   ({ match }) =>
+    buildIsoPermissionsPayload(decodeURIComponent(match[1])),
+  ],
+  ["PUT",   /^\/api\/iso-permissions\/([^/]+)$/,                   ({ match, opts }) =>
+    applyIsoPermissionsUpdate(decodeURIComponent(match[1]), tryBody(opts) || {}),
+  ],
 ];
+
+// ── ISO Permissions reference data + in-memory state ──────────────────────
+const ISO_LOBS = [
+  ["AG", "Agricultural Capital Assets (Output Policy)"],
+  ["OP", "Capital Assets Program (Output Policy)"],
+  ["CA", "Commercial Auto"],
+  ["GS", "Commercial Glass"],
+  ["CM", "Commercial Inland Marine"],
+  ["CU", "Commercial Liability Umbrella"],
+  ["CL", "Commercial Lines Of Business"],
+  ["CF", "Commercial Property/Fire"],
+  ["CR", "Crime and Fidelity"],
+  ["EQ", "Earthquake"],
+  ["EP", "Employment-Related Practices"],
+  ["GL", "General Liability"],
+  ["MP", "Management Liability - D&O, ERPL, Fiduciary"],
+  ["PR", "Medical Professional Liability"],
+];
+const ISO_SERVICES = [
+  ["FO", "Forms"],
+  ["LC", "Loss Costs"],
+  ["RU", "Rules"],
+];
+const ISO_JURISDICTIONS = [
+  ["AL","Alabama"],["AK","Alaska"],["AZ","Arizona"],["AR","Arkansas"],
+  ["CA","California"],["CO","Colorado"],["CT","Connecticut"],["DE","Delaware"],
+  ["DC","District of Columbia"],["FL","Florida"],["GA","Georgia"],["GU","Guam"],
+  ["HI","Hawaii"],["ID","Idaho"],["IL","Illinois"],["IN","Indiana"],["IA","Iowa"],
+  ["KS","Kansas"],["KY","Kentucky"],["LA","Louisiana"],["ME","Maine"],
+  ["MD","Maryland"],["MA","Massachusetts"],["MI","Michigan"],["MN","Minnesota"],
+  ["MS","Mississippi"],["MO","Missouri"],["MT","Montana"],["NE","Nebraska"],
+  ["NV","Nevada"],["NH","New Hampshire"],["NJ","New Jersey"],["NM","New Mexico"],
+  ["NY","New York"],["NC","North Carolina"],["ND","North Dakota"],["OH","Ohio"],
+  ["OK","Oklahoma"],["OR","Oregon"],["PA","Pennsylvania"],["PR","Puerto Rico"],
+  ["RI","Rhode Island"],["SC","South Carolina"],["SD","South Dakota"],
+  ["TN","Tennessee"],["TX","Texas"],["VI","US Virgin Islands"],["UT","Utah"],
+  ["VT","Vermont"],["VA","Virginia"],["WA","Washington"],["WV","West Virginia"],
+  ["WI","Wisconsin"],["WY","Wyoming"],
+];
+
+// Per-carrier session state — populated lazily on first GET so saves persist
+// within a single browser tab.
+const isoPermState = new Map();
+
+function _isoCellKey(lob, svc, jur) { return `${lob}|${svc}|${jur}`; }
+
+function _ensureIsoCarrierState(carrierId) {
+  if (isoPermState.has(carrierId)) return isoPermState.get(carrierId);
+  const enabled = new Set();
+  for (const [lob] of ISO_LOBS) {
+    for (const [svc] of ISO_SERVICES) {
+      for (const [jur] of ISO_JURISDICTIONS) {
+        enabled.add(_isoCellKey(lob, svc, jur));
+      }
+    }
+  }
+  const state = {
+    enabled,
+    agreement: {
+      agreement_in_place: true,
+      as_of_date: "",
+      expiration_date: "",
+      agreement_filename: "",
+      agreement_content_type: "",
+      has_agreement: false,
+      iso_terms_version: null,
+      updated_at: null,
+    },
+  };
+  isoPermState.set(carrierId, state);
+  return state;
+}
+
+function buildIsoPermissionsPayload(carrierId) {
+  const state = _ensureIsoCarrierState(carrierId);
+  const matrix = [];
+  for (const [lob] of ISO_LOBS) {
+    for (const [svc] of ISO_SERVICES) {
+      for (const [jur] of ISO_JURISDICTIONS) {
+        matrix.push({
+          lob_code: lob,
+          service_code: svc,
+          jurisdiction_code: jur,
+          enabled: state.enabled.has(_isoCellKey(lob, svc, jur)),
+        });
+      }
+    }
+  }
+  return {
+    carrier_id: carrierId,
+    lobs: ISO_LOBS.map(([code, label]) => ({ code, label })),
+    services: ISO_SERVICES.map(([code, label]) => ({ code, label })),
+    jurisdictions: ISO_JURISDICTIONS.map(([code, label]) => ({ code, label })),
+    matrix,
+    agreement: { ...state.agreement },
+  };
+}
+
+function applyIsoPermissionsUpdate(carrierId, body) {
+  const state = _ensureIsoCarrierState(carrierId);
+  for (const cell of body.matrix || []) {
+    const key = _isoCellKey(cell.lob_code, cell.service_code, cell.jurisdiction_code);
+    if (cell.enabled) state.enabled.add(key);
+    else state.enabled.delete(key);
+  }
+  if (body.agreement) {
+    const a = body.agreement;
+    if (a.agreement_in_place !== undefined && a.agreement_in_place !== null) {
+      state.agreement.agreement_in_place = !!a.agreement_in_place;
+    }
+    if (a.as_of_date !== undefined) state.agreement.as_of_date = a.as_of_date || "";
+    if (a.expiration_date !== undefined) state.agreement.expiration_date = a.expiration_date || "";
+    if (a.agreement_filename) {
+      state.agreement.agreement_filename = a.agreement_filename;
+      state.agreement.agreement_content_type = a.agreement_content_type || "";
+      state.agreement.has_agreement = true;
+    }
+    state.agreement.updated_at = new Date().toISOString();
+  }
+  return buildIsoPermissionsPayload(carrierId);
+}
 
 function tryBody(opts) {
   try {

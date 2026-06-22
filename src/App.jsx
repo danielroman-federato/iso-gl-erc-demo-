@@ -8,6 +8,7 @@ import Screen5_PolicyWorkspace from "./screens/Screen5_PolicyWorkspace";
 import Screen6_DataBrowser from "./screens/Screen6_DataBrowser";
 import Screen7_CircularAdoption from "./screens/Screen7_CircularAdoption";
 import Screen8_ActuarialDag from "./screens/Screen8_ActuarialDag";
+import Screen9_IsoPermissions from "./screens/Screen9_IsoPermissions";
 import Screen0_Carriers from "./screens/Screen0_Carriers";
 import MockScreen from "./screens/MockScreen";
 
@@ -114,6 +115,15 @@ function IconCarriers() {
   );
 }
 
+function IconIsoPermissions() {
+  return (
+    <svg width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M8 1.5L2.5 4v4c0 3.2 2.3 5.7 5.5 6.5 3.2-.8 5.5-3.3 5.5-6.5V4L8 1.5z" />
+      <path d="M5.5 8l1.7 1.7L10.5 6.5" />
+    </svg>
+  );
+}
+
 const NAV_ITEMS = [
   { id: 1, label: "Ops Dashboard",     sub: "Phase A", Icon: IconOps },
   { id: 2, label: "Deviation Manager", sub: "Phase B", Icon: IconDeviation },
@@ -124,6 +134,7 @@ const NAV_ITEMS = [
   { id: 7, label: "Circular Adoption", sub: "Phase D", Icon: IconCircular },
   { id: 8, label: "Actuarial DAG",      sub: "RS-2",      Icon: IconActuarialDag },
   { id: 0, label: "Carriers",          sub: "Workspace", Icon: IconCarriers },
+  { id: 9, label: "ISO Permissions",   sub: "Admin",     Icon: IconIsoPermissions },
 ];
 
 const SHELL_BG = "#2D1D1A";
@@ -385,9 +396,16 @@ export default function App() {
                 {active === 5 && (IS_DEMO
                   ? <MockScreen id="screen5" title="Policy Workspace" subtitle="Bound policy view with audit package, schedule of forms, and worksheet PDF." caption="Screen 5 — drop screen5.png at frontend/public/mocks/ to replace this placeholder." />
                   : <Screen5_PolicyWorkspace bindResult={bindResult} />)}
-                {active === 6 && <Screen6_DataBrowser />}
+                {active === 6 && <Screen6_DataBrowser currentCarrierId={currentCarrierId} />}
                 {active === 7 && <Screen7_CircularAdoption />}
                 {active === 8 && <Screen8_ActuarialDag />}
+                {active === 9 && (
+                  <Screen9_IsoPermissions
+                    currentCarrierId={currentCarrierId}
+                    carriers={carrierList}
+                    onPickCarrier={setCurrentCarrierId}
+                  />
+                )}
               </div>
             </div>
           </div>

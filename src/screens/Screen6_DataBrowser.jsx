@@ -356,7 +356,7 @@ function TerritoryTab({ state, edition }) {
 }
 
 // ── Forms tab ─────────────────────────────────────────────────────────────────
-function FormsTab({ state, edition }) {
+function FormsTab({ state, edition, carrierId }) {
   const [models, setModels] = useState([]);
   const [loading, setLoading] = useState(false);
   const [formTab, setFormTab] = useState("forms");
@@ -369,6 +369,7 @@ function FormsTab({ state, edition }) {
     dataBrowser.forms({
       state_code: state || undefined,
       edition_id: edition || undefined,
+      carrier_id: carrierId || undefined,
     }).then(ms => {
       setModels(ms);
       setSelectedModel(ms[0] || null);
@@ -1105,7 +1106,7 @@ function RatingAlgorithmsTab({ state, edition }) {
 }
 
 // ── Forms List tab ────────────────────────────────────────────────────────────
-function FormsListTab({ state, edition }) {
+function FormsListTab({ state, edition, carrierId }) {
   const [data, setData] = useState({ total: 0, rows: [] });
   const [loading, setLoading] = useState(false);
   const [search, setSearch] = useState("");
@@ -1118,8 +1119,9 @@ function FormsListTab({ state, edition }) {
     dataBrowser.formsList({
       state_code: state || undefined,
       edition_id: edition || undefined,
+      carrier_id: carrierId || undefined,
     }).then(setData).catch(() => {}).finally(() => setLoading(false));
-  }, [state, edition]);
+  }, [state, edition, carrierId]);
 
   const needle = search.trim().toLowerCase();
   const filtered = needle
@@ -1961,7 +1963,7 @@ const TABS = [
   { id: "rating-algorithms", label: "Rating Algorithms" },
 ];
 
-export default function Screen6_DataBrowser() {
+export default function Screen6_DataBrowser({ currentCarrierId } = {}) {
   const [states, setStates] = useState([]);
   const [editions, setEditions] = useState([]);
   const [state, setState] = useState("");
@@ -2014,8 +2016,8 @@ export default function Screen6_DataBrowser() {
         {activeTab === "factors" && <FactorsTab state={state} edition={edition} />}
         {activeTab === "ilta" && <ILTATab state={state} edition={edition} />}
         {activeTab === "territory" && <TerritoryTab state={state} edition={edition} />}
-        {activeTab === "forms-list" && <FormsListTab state={state} edition={edition} />}
-        {activeTab === "forms" && <FormsTab state={state} edition={edition} />}
+        {activeTab === "forms-list" && <FormsListTab state={state} edition={edition} carrierId={currentCarrierId} />}
+        {activeTab === "forms" && <FormsTab state={state} edition={edition} carrierId={currentCarrierId} />}
         {activeTab === "editions" && <EditionsTab state={state} edition={edition} />}
         {activeTab === "erc-hierarchy" && <ERCHierarchyTab />}
         {activeTab === "erc-citations" && <ERCCitationsTab state={state} edition={edition} />}
