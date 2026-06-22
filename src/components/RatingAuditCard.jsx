@@ -276,6 +276,33 @@ export function RatingAuditCard({ audit }) {
         </div>
       </div>
 
+      {/* 2.5 ── RS-4.12 Phase 2 — Filing-track edition provenance.
+                Shown only when bind used a split edition. Default (single
+                edition) renders nothing so the typical audit stays compact. */}
+      {prov.split_edition_bind && (
+        <div>
+          <div className="flex items-center gap-2 mb-2">
+            <div className="text-[10px] font-semibold uppercase tracking-wider text-gray-400">Filing-Track Editions at Bind</div>
+            <span className="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-purple-50 border border-purple-200 text-purple-800 text-[9px] font-semibold uppercase tracking-wide">
+              Split
+            </span>
+          </div>
+          <div className="rounded-lg border border-purple-200 bg-purple-50/40 p-3 text-xs space-y-2">
+            <div className="text-[11px] text-purple-900">
+              Rate, forms, and rules were filed on different SERFF cycles. Each axis below stamps which DOI-approved edition produced the values in that part of the audit.
+            </div>
+            <div className="grid grid-cols-3 gap-2">
+              <Tile label="Rate edition" value={prov.bound_rate_edition_id} />
+              <Tile label="Forms edition" value={prov.bound_forms_edition_id} />
+              <Tile label="Rules edition" value={prov.bound_rules_edition_id} />
+            </div>
+            <div className="text-[10px] text-purple-700">
+              Bureau circulars below are the <em>union</em> of both editions' manifests — each circular's incorporated-into edition is preserved in the underlying ERC manifest.
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* 3 ── Carrier deviations */}
       <div>
         <div className="text-[10px] font-semibold uppercase tracking-wider text-gray-400 mb-2">Carrier Deviations</div>
